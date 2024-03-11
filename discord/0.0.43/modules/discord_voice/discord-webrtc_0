@@ -1,0 +1,930 @@
+[2024-02-22 07:53:52.743] [12016] (engine.cpp:541): Created native Engine, time: Thu Feb 22 07:53:52 2024 -05, logPath: /home/drako/.config/discord/0.0.43/modules/discord_voice/, logLevel: 2
+[2024-02-22 07:53:52.745] [12016] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-22 07:53:52.745] [12016] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-22 07:53:52.745] [12016] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:354): ActiveAudioLayer
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-22 07:53:52.745] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-22 07:53:52.745] [12016] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-22 07:53:52.745] [12016] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-22 07:53:52.745] [12016] (audio_engine.cpp:400): Creating audio engine: standard
+[2024-02-22 07:53:52.745] [12016] (audio_device_impl.cc:364): Init
+[2024-02-22 07:53:52.754] [12016] (audio_device_impl.cc:364): Init
+[2024-02-22 07:53:52.758] [12016] (audio_coding.cpp:149): Using software Opus decoder
+[2024-02-22 07:53:52.758] [12016] (audio_coding.cpp:166): Using software Opus encoder
+[2024-02-22 07:53:52.758] [12016] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-22 07:53:52.758] [12016] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2024-02-22 07:53:52.758] [12016] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-22 07:53:52.758] [12016] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-22 07:53:52.758] [12016] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-22 07:53:52.758] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:52.758] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:52.758] [12016] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:573): output: 1
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:52.759] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:52.759] [12016] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-22 07:53:52.759] [12016] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-22 07:53:52.759] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 07:53:52.759] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 07:53:52.760] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 07:53:52.760] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 07:53:52.760] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 07:53:52.760] [12016] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2024-02-22 07:53:52.760] [12016] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2024-02-22 07:53:52.760] [12016] (audio_device_impl.cc:914): output: 0
+[2024-02-22 07:53:52.760] [12016] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-22 07:53:52.760] [12016] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2024-02-22 07:53:52.760] [12016] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2024-02-22 07:53:52.760] [12016] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-22 07:53:52.760] [12016] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2024-02-22 07:53:52.760] [12016] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2024-02-22 07:53:52.760] [12016] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2024-02-22 07:53:52.760] [12016] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2024-02-22 07:53:52.760] [12016] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2024-02-22 07:53:52.761] [12016] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-22 07:53:52.761] [12016] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 07:53:52.764] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 07:53:52.982] [12016] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-22 07:53:52.982] [12016] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-22 07:53:52.982] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:52.982] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:52.982] [12016] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:573): output: 1
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:52.983] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:52.983] [12016] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-22 07:53:52.983] [12016] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-22 07:53:52.983] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 07:53:52.983] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 07:53:52.984] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 07:53:52.984] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 07:53:52.984] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 07:53:52.984] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 07:53:52.984] [12016] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-22 07:53:52.984] [12016] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-22 07:53:52.984] [12016] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-22 07:53:52.986] [11970] (discord.cpp:755): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 267220, Version Hash: 6b16dbc153c611ab1c8976bd334acfe6c5744d68"]
+[2024-02-22 07:53:53.069] [11970] (discord.cpp:755): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2024-02-22 07:53:53.196] [11970] (discord.cpp:755): JS console: ["%c[default]","[NATIVE INFO] host 0.0.43, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2024-02-22 07:53:53.238] [11970] (discord.cpp:755): JS console: ["[FAST CONNECT] connected in 1310ms"]
+[2024-02-22 07:53:53.240] [12016] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-22 07:53:53.240] [12016] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-22 07:53:53.240] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:53.240] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:53.240] [12016] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-22 07:53:53.241] [12016] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:573): output: 1
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-22 07:53:53.242] [12016] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-22 07:53:53.242] [12016] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-22 07:53:53.242] [12016] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-22 07:53:53.242] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 07:53:53.242] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 07:53:53.242] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 07:53:53.250] [11970] (discord.cpp:755): JS console: ["Initializing krisp module"]
+[2024-02-22 07:53:53.630] [11970] (discord.cpp:755): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2024-02-22 07:53:53.656] [11970] (discord.cpp:755): JS console: ["%c[Spellchecker]","Switching to es-ES","(available)"]
+[2024-02-22 07:53:54.098] [11970] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-22 07:53:54.200] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 07:53:54.200] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2024-02-22 07:53:54.201] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2024-02-22 07:53:54.259] [11970] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2024-02-22 07:53:54.261] [11970] (discord.cpp:755): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2024-02-22 07:53:55.409] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 1209ms, as f6aa416425f7061372164f4576edaafd"]
+[2024-02-22 07:53:55.420] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-22 07:53:55.421] [11970] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 663571503744286753, database: undefined)"]
+[2024-02-22 07:53:55.430] [11970] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-22 07:53:55.437] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-22 07:53:55.438] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Added account: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 07:53:55.473] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1273ms"]
+[2024-02-22 07:53:56.012] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connected"]
+[2024-02-22 07:53:56.190] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:",""]
+[2024-02-22 07:53:56.192] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Profile updated for 31d2j6ku4kvjla35pcl6lm5chavq: isPremium = true"]
+[2024-02-22 07:56:43.399] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 07:56:48.480] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 07:57:03.430] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 07:58:03.554] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:06:59.655] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:07:04.660] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:07:09.659] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:07:24.682] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:07:39.686] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:07:54.696] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:14:00.433] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:21:26.239] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:21:31.236] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:21:36.239] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:22:11.282] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:22:16.282] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:22:26.284] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:22:31.284] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:26:51.673] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:01.672] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:06.672] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:11.673] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:16.674] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:26.674] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:41.677] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:46.679] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:27:56.680] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:28:31.684] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:28:36.683] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:29:16.711] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:29:51.717] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:30:16.719] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:30:21.721] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:33:01.886] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:34:06.892] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:49:47.576] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:50:12.083] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 08:50:42.646] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:50:47.646] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:51:07.660] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:52:02.669] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:52:07.670] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:52:12.670] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:52:17.670] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:52:22.671] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:53:02.701] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:53:12.721] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:53:47.784] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:54:47.894] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:55:43.001] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:56:13.054] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:56:18.064] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:57:18.174] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:58:58.354] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 08:59:58.471] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:01:13.608] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:02:13.719] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:03:00.680] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:03:00.684] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 09:03:00.684] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 09:03:00.684] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 09:03:00.684] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 09:03:00.685] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 09:03:00.685] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 09:03:00.685] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 09:03:28.849] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:03:38.866] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:04:38.975] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 09:04:39.784] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 09:04:39.784] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 09:04:39.784] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 09:04:39.784] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 09:04:39.784] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 09:04:39.784] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 09:04:39.784] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 09:04:39.784] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 09:04:48.980] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:04:53.981] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:05:49.071] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:06:49.187] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:07:19.225] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:07:29.020] [12016] (audio_engine.cpp:168): Setting audio output device: 'Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI)'
+[2024-02-22 09:07:29.020] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 09:07:29.020] [12016] (audio_device_impl.cc:720): SetPlayoutDevice
+[2024-02-22 09:07:29.020] [12016] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2024-02-22 09:07:29.022] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2024-02-22 09:07:29.022] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 09:07:29.022] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 09:07:29.022] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 09:07:29.022] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 09:07:59.237] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:08:24.251] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:08:44.252] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:09:24.270] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:09:34.272] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:10:49.280] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:11:49.288] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:13:09.327] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:14:09.358] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:15:39.374] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:16:39.418] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:17:59.438] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:18:59.474] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:20:24.494] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:21:24.556] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:22:39.629] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:23:09.637] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:23:29.677] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:23:39.697] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:24:04.725] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:24:44.730] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:25:04.743] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:25:24.746] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:26:24.773] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:26:34.777] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:26:54.780] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:27:44.782] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:28:34.830] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:28:44.850] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:28:59.860] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:30:04.913] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:30:09.913] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:30:34.923] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:30:54.926] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:31:04.930] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:32:19.984] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:33:04.995] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:34:05.052] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:35:10.112] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:35:45.121] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:36:10.137] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:36:25.140] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:37:30.217] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:37:45.228] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:38:30.245] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:38:45.247] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:39:30.256] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:39:50.260] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:40:00.261] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:40:05.263] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:40:30.263] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:41:30.374] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:43:00.538] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:43:45.608] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:44:00.638] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:44:15.660] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:45:20.786] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:46:20.897] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:48:06.175] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.35 seconds."]
+[2024-02-22 09:48:08.527] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 09:48:08.734] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 206 ms"]
+[2024-02-22 09:48:08.735] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session f6aa416425f7061372164f4576edaafd, seq: 584"]
+[2024-02-22 09:48:08.835] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-22 09:48:08.836] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 308ms, replayed 0 events, new seq: 585"]
+[2024-02-22 09:48:11.079] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:49:11.166] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:49:31.187] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:50:21.233] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:50:44.466] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 09:51:21.272] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:52:56.330] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:53:56.365] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:55:06.394] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:55:11.395] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:57:26.461] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:57:41.465] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:58:01.477] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:58:06.477] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:58:41.489] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 09:58:46.489] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:00:01.507] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:00:11.507] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:00:16.510] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:00:21.510] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:00:51.531] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:01:21.593] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:02:16.704] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:02:31.734] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:03:31.852] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:05:02.029] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:05:17.060] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:06:02.133] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:07:57.220] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:08:02.221] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:09:02.254] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:11:22.356] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:12:22.383] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:13:32.413] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:14:17.422] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:14:22.422] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:14:27.426] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:14:32.427] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:14:52.433] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:16:07.453] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:16:17.454] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:16:57.458] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:17:17.459] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:17:57.493] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:18:12.496] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:19:02.510] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:19:07.518] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:19:52.527] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:20:52.598] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:22:02.738] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:23:02.850] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:24:23.006] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:25:23.123] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:27:23.347] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:27:53.403] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:30:18.686] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:30:41.988] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:41.989] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:41.995] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 10:30:41.995] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 10:30:41.995] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 10:30:41.995] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 10:30:41.996] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 10:30:41.996] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 10:30:41.996] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 10:30:43.720] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:30:43.990] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 10:30:43.990] [12016] (audio_engine.cpp:168): Setting audio output device: 'Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI)'
+[2024-02-22 10:30:43.990] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 10:30:43.990] [12016] (audio_device_impl.cc:720): SetPlayoutDevice
+[2024-02-22 10:30:43.990] [12016] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2024-02-22 10:30:43.991] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2024-02-22 10:30:43.991] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 10:30:43.991] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 10:30:43.991] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 10:30:43.991] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 10:31:13.764] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:32:33.884] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:33:08.958] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:33:34.006] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:34:54.160] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:35:54.277] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:37:54.503] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:38:54.613] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:40:44.811] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:41:44.923] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:43:20.114] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:44:20.223] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:26.889] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:26.896] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 10:44:26.896] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 10:44:26.896] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 10:44:26.896] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 10:44:26.897] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 10:44:26.897] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 10:44:26.897] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 10:44:29.895] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 10:44:29.895] [12016] (audio_engine.cpp:168): Setting audio output device: 'Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI)'
+[2024-02-22 10:44:29.895] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 10:44:29.895] [12016] (audio_device_impl.cc:720): SetPlayoutDevice
+[2024-02-22 10:44:29.895] [12016] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2024-02-22 10:44:29.896] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2024-02-22 10:44:29.896] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 10:44:29.896] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 10:44:29.896] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 10:44:29.896] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 10:45:40.366] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:46:40.483] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:48:15.670] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:48:20.678] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:48:42.046] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 10:48:42.218] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 172 ms"]
+[2024-02-22 10:48:42.218] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session f6aa416425f7061372164f4576edaafd, seq: 1049"]
+[2024-02-22 10:48:42.319] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-22 10:48:42.320] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 274ms, replayed 0 events, new seq: 1050"]
+[2024-02-22 10:50:45.956] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:51:46.063] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:54:01.118] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:55:01.150] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:55:26.160] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:55:46.166] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:56:11.176] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:57:31.214] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:57:58.870] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 10:58:31.273] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 10:59:41.353] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:00:41.462] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:02:11.587] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:03:16.705] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:05:16.915] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:05:21.916] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:13:12.560] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:14:02.567] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:28:33.436] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:28:38.436] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:29:23.469] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:30:18.551] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:30:23.560] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:31:13.647] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:32:23.734] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:32:28.735] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:32:43.740] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:32:48.740] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:32:53.744] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:33:23.786] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:33:48.837] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:33:53.847] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:34:23.893] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:35:33.977] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:36:34.069] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:38:24.152] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:38:29.156] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:39:34.240] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:40:29.313] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:40:34.313] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:41:29.343] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:48:59.625] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:49:29.639] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:53:15.062] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:54:10.076] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:54:35.104] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:56:25.159] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:56:50.168] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 11:58:08.774] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 11:58:09.185] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 411 ms"]
+[2024-02-22 11:58:09.186] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session f6aa416425f7061372164f4576edaafd, seq: 1293"]
+[2024-02-22 11:58:09.699] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-22 11:58:09.700] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 926ms, replayed 0 events, new seq: 1294"]
+[2024-02-22 12:02:27.169] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 701ms"]
+[2024-02-22 12:02:27.871] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-22 12:02:33.478] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 12:02:39.960] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connected"]
+[2024-02-22 12:02:40.129] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 12:02:40.130] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Profile updated for 31d2j6ku4kvjla35pcl6lm5chavq: isPremium = true"]
+[2024-02-22 12:04:20.975] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:04:46.007] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:04:51.008] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:05:01.019] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:05:16.020] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:06:06.024] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:06:11.026] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:06:21.031] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:06:46.045] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:07:21.068] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:07:31.066] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:08:06.103] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:08:11.104] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:08:26.109] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:09:01.123] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:13:26.540] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:14:21.646] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:14:51.702] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:47.940] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:47.947] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 12:20:47.947] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 12:20:47.947] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 12:20:47.947] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 12:20:47.947] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 12:20:47.947] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 12:20:47.947] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 12:20:49.942] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 12:20:49.943] [12016] (audio_engine.cpp:168): Setting audio output device: 'Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI)'
+[2024-02-22 12:20:49.943] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 12:20:49.943] [12016] (audio_device_impl.cc:720): SetPlayoutDevice
+[2024-02-22 12:20:49.943] [12016] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2024-02-22 12:20:49.943] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2024-02-22 12:20:49.944] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 12:20:49.944] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 12:20:49.944] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 12:20:49.944] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 12:24:22.695] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:24:52.751] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:29:38.068] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:30:43.092] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:30:58.095] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:32:43.124] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:32:48.124] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:32:53.126] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:34:23.165] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:39:58.464] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:40:08.465] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:41:38.513] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:41:48.514] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:42:18.520] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:42:38.524] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:47:48.999] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:50:25.385] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.43 seconds."]
+[2024-02-22 12:50:26.817] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:50:54.856] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.12 seconds."]
+[2024-02-22 12:50:58.986] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:51:27.021] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.76 seconds."]
+[2024-02-22 12:51:31.783] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:51:59.822] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.51 seconds."]
+[2024-02-22 12:52:06.332] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:52:34.365] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 13.22 seconds."]
+[2024-02-22 12:52:34.368] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 12:52:34.368] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 12:52:47.584] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:53:15.615] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 29.73 seconds."]
+[2024-02-22 12:53:15.615] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 12:53:15.615] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 12:53:45.350] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:54:13.382] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 36.01 seconds."]
+[2024-02-22 12:54:13.382] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 12:54:13.382] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 12:54:49.397] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:54:54.558] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 5158 ms"]
+[2024-02-22 12:54:55.329] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 5932ms, as ee0d05d3ddead02f9478f7a6dad64559"]
+[2024-02-22 12:54:55.359] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-22 12:54:55.361] [11970] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 663571503744286753, database: null)"]
+[2024-02-22 12:54:55.375] [11970] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-22 12:54:55.480] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 6083ms"]
+[2024-02-22 12:55:05.392] [11970] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","1055858841927028827","0","[object Object]"]
+[2024-02-22 12:55:20.212] [133089] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-22 12:55:20.212] [133089] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-22 12:55:20.212] [133089] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-22 12:55:20.212] [133089] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-22 12:55:20.212] [133089] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santiago
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:176): Timing out 5 remaining latency test pings
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:283): Average RTT for region atlanta is 80.5
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:283): Average RTT for region us-east is 81.5
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:283): Average RTT for region us-south is 96
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:283): Average RTT for region newark is 78
+[2024-02-22 12:55:25.216] [133089] (region_latency_tester.cpp:283): Average RTT for region santiago is 72.25
+[2024-02-22 12:56:14.918] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1005ms"]
+[2024-02-22 12:56:15.919] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-22 12:56:16.513] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connected"]
+[2024-02-22 12:56:16.610] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 12:56:16.622] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Profile updated for 31d2j6ku4kvjla35pcl6lm5chavq: isPremium = true"]
+[2024-02-22 12:56:22.307] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.10 seconds."]
+[2024-02-22 12:56:23.409] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 12:56:23.799] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 390 ms"]
+[2024-02-22 12:56:23.799] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session ee0d05d3ddead02f9478f7a6dad64559, seq: 10"]
+[2024-02-22 12:56:23.903] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-22 12:56:23.907] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 498ms, replayed 0 events, new seq: 11"]
+[2024-02-22 12:59:19.885] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:59:24.884] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 12:59:57.029] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.16 seconds."]
+[2024-02-22 12:59:59.187] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:00:27.217] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.07 seconds."]
+[2024-02-22 13:00:31.288] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:00:59.318] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 9.74 seconds."]
+[2024-02-22 13:01:09.061] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:01:37.091] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 14.61 seconds."]
+[2024-02-22 13:01:51.704] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:02:19.734] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 17.50 seconds."]
+[2024-02-22 13:02:19.734] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:02:19.734] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:02:37.237] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:03:05.266] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 22.62 seconds."]
+[2024-02-22 13:03:05.266] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:03:05.266] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:03:27.894] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:03:46.001] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 18103 ms"]
+[2024-02-22 13:03:46.549] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 18655ms, as f4b4a8bcfb03fd17ee3788504001a5d2"]
+[2024-02-22 13:03:46.580] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-22 13:03:46.580] [11970] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 663571503744286753, database: null)"]
+[2024-02-22 13:03:46.592] [11970] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-22 13:03:46.708] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 18814ms"]
+[2024-02-22 13:07:10.276] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1134ms"]
+[2024-02-22 13:07:11.406] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-22 13:07:27.798] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 13:07:28.070] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connected"]
+[2024-02-22 13:07:28.158] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:",""]
+[2024-02-22 13:07:28.254] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Profile updated for 31d2j6ku4kvjla35pcl6lm5chavq: isPremium = true"]
+[2024-02-22 13:13:15.394] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.38 seconds."]
+[2024-02-22 13:13:16.776] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:13:44.814] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.18 seconds."]
+[2024-02-22 13:13:46.409] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:13:46.997] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:13:51.414] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:13:56.414] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:14:01.416] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:14:15.028] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.52 seconds."]
+[2024-02-22 13:14:17.546] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:14:45.575] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.10 seconds."]
+[2024-02-22 13:14:46.466] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:14:52.679] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:15:20.711] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 14.94 seconds."]
+[2024-02-22 13:15:20.711] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:15:20.711] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:15:35.658] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:15:46.555] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:16:03.688] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 37.45 seconds."]
+[2024-02-22 13:16:03.688] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:16:03.688] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:16:41.140] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:17:09.172] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds."]
+[2024-02-22 13:17:09.172] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:17:09.172] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:18:09.177] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:18:36.805] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:18:37.203] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds."]
+[2024-02-22 13:18:37.203] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:18:37.203] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:19:01.849] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:19:31.892] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:19:37.208] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:19:46.903] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:20:05.243] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds."]
+[2024-02-22 13:20:05.243] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:20:05.243] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:20:11.906] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:20:41.936] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:21:05.247] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:21:11.994] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:21:33.278] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 60.00 seconds."]
+[2024-02-22 13:21:33.278] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2024-02-22 13:21:33.278] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2024-02-22 13:22:33.285] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:22:33.436] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 151 ms"]
+[2024-02-22 13:22:33.989] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 703ms, as e2ce1d35e4a03fd1ef840288558c3c40"]
+[2024-02-22 13:22:34.003] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-22 13:22:34.003] [11970] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 663571503744286753, database: null)"]
+[2024-02-22 13:22:34.015] [11970] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-22 13:22:34.116] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 831ms"]
+[2024-02-22 13:22:37.062] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:22:42.067] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:22:47.071] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:22:52.069] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:23:42.096] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:24:57.164] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:26:12.207] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:26:17.213] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:26:22.207] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:26:32.208] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:26:47.209] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:27:02.211] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:27:07.210] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:27:22.841] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.86 seconds."]
+[2024-02-22 13:27:24.698] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-22 13:27:24.867] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 168 ms"]
+[2024-02-22 13:27:24.867] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e2ce1d35e4a03fd1ef840288558c3c40, seq: 14"]
+[2024-02-22 13:27:24.968] [11970] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-22 13:27:24.969] [11970] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 271ms, replayed 0 events, new seq: 15"]
+[2024-02-22 13:27:42.230] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:27:57.231] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:28:22.247] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:28:47.339] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 593ms"]
+[2024-02-22 13:28:47.929] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-22 13:28:48.274] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connected"]
+[2024-02-22 13:28:48.373] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 13:28:48.387] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Profile updated for 31d2j6ku4kvjla35pcl6lm5chavq: isPremium = true"]
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:40:53.746] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:40:53.754] [12016] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-22 13:40:53.754] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 13:40:53.754] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-22 13:40:53.754] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 13:40:53.755] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 13:40:53.755] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 13:40:53.755] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:249): * audioInput:
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:252): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:252): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:254): * audioOutput:
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:257): - default: Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:257): - Family 17h/19h HD Audio Controller Analog Stereo ()
+[2024-02-22 13:57:14.784] [12016] (engine.cpp:257): - Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI) ()
+[2024-02-22 13:57:14.785] [12016] (audio_engine.cpp:168): Setting audio output device: 'Renoir Radeon High Definition Audio Controller Digital Stereo (HDMI)'
+[2024-02-22 13:57:14.785] [12016] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-22 13:57:14.785] [12016] (audio_device_impl.cc:720): SetPlayoutDevice
+[2024-02-22 13:57:14.785] [12016] (audio_device_generic.cc:62): SetPlayoutDevice: Not supported on this platform
+[2024-02-22 13:57:14.787] [12016] (audio_device_impl.cc:708): SetPlayoutDevice(2)
+[2024-02-22 13:57:14.788] [12016] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-22 13:57:14.788] [12016] (audio_device_impl.cc:619): output: 1
+[2024-02-22 13:57:14.788] [12016] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-22 13:57:14.788] [12016] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-22 13:58:25.868] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 13:58:45.881] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:00:15.925] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:00:20.939] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:01:00.964] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:01:45.983] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:01:50.980] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:01:55.982] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:02:46.080] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:02:51.086] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:02:56.086] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:03:01.083] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:03:06.084] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:03:36.155] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:07:56.752] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:09:21.889] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:09:26.889] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:09:46.893] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:12:06.949] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:12:11.951] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:15:12.087] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:16:07.169] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:16:17.164] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:16:47.186] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:18:52.270] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:19:17.273] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:19:22.275] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:29:43.393] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:30:13.421] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:30:18.424] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:03.469] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:18.471] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:28.477] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:33.476] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:38.475] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:48.478] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:31:53.477] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:32:03.485] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:32:28.505] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:32:48.535] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:33:13.555] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:33:18.557] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:33:58.576] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:34:18.587] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:35:08.602] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:35:13.606] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:35:33.608] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:36:08.635] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:36:18.639] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:36:23.638] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:36:33.639] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:36:38.643] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:37:18.683] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:37:33.684] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 14:37:34.516] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 14:37:34.798] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Updated account access token: 31d2j6ku4kvjla35pcl6lm5chavq"]
+[2024-02-22 14:37:34.906] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:",""]
+[2024-02-22 15:01:59.494] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 15:02:00.046] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 15:02:10.052] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 15:02:33.343] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:",""]
+[2024-02-22 15:02:35.049] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 15:04:00.094] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 15:04:01.854] [11970] (discord.cpp:755): JS console: ["%c[Spotify]","Devices updated for 31d2j6ku4kvjla35pcl6lm5chavq:","[object Object]"]
+[2024-02-22 15:04:10.100] [11970] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-22 15:04:42.992] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.992] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.992] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.992] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.992] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.993] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.994] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.995] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.996] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
+[2024-02-22 15:04:42.996] [11970] (discord.cpp:755): JS console: ["Window state not initialized","window-1"]
