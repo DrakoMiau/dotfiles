@@ -5,9 +5,9 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=10145dbd1dd000171015321500000008820004
+clientId1=10145dbd1dd000171016436500000009060004
 count=1
 program1=/usr/lib/DiscoverNotifier
-restartCommand1=/usr/lib/DiscoverNotifier,-session,10145dbd1dd000171015321500000008820004_1710153564_550964
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10145dbd1dd000171016436500000009060004_1710164470_232654
 restartStyleHint1=0
 userId1=drako
