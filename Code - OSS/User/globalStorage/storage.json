@@ -6,7 +6,8 @@
             "file:///etc/xdg": "__default__profile__"
         },
         "emptyWindows": {
-            "1710162161351": "__default__profile__"
+            "1710162161351": "__default__profile__",
+            "1710428946631": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,7 +18,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1710162161351"
+                "backupFolder": "1710428946631"
             }
         ]
     },
@@ -59,7 +60,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -88,6 +90,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///boot/grub/grub.cfg",
+                                        "path": "/boot/grub/grub.cfg",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/boot/grub/grub.cfg"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -203,13 +216,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -345,13 +356,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -396,13 +405,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -699,7 +706,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -860,8 +868,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -869,8 +876,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1788,13 +1794,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/drako/.config/Code - OSS/Backups/1710162161351",
+            "backupPath": "/home/drako/.config/Code - OSS/Backups/1710428946631",
             "uiState": {
                 "mode": 1,
                 "x": 969,
-                "y": 553,
+                "y": 34,
                 "width": 942,
-                "height": 517
+                "height": 1157
             }
         },
         "openedWindows": []

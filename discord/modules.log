@@ -471,3 +471,13 @@
 2024-02-22T19:53:59.179Z [Modules] Host is up to date.
 2024-02-22T19:53:59.180Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2024-02-22T19:53:59.218Z [Modules] No module updates available.
+2024-03-14T02:26:26.490Z [Modules] Modules initializing
+2024-03-14T02:26:26.490Z [Modules] Distribution: remote
+2024-03-14T02:26:26.490Z [Modules] Host updates: enabled
+2024-03-14T02:26:26.490Z [Modules] Module updates: enabled
+2024-03-14T02:26:26.490Z [Modules] Module install path: /home/drako/.config/discord/0.0.43/modules
+2024-03-14T02:26:26.490Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.43/modules/installed.json
+2024-03-14T02:26:26.490Z [Modules] Module download path: /home/drako/.config/discord/0.0.43/modules/pending
+2024-03-14T02:26:26.674Z [Modules] No updates to install
+2024-03-14T02:26:26.674Z [Modules] Checking for host updates.
+2024-03-14T02:26:26.907Z [Modules] Host update is available. Manual update required!

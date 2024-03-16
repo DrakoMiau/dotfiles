@@ -8,6 +8,7 @@ from libqtile import hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+from libqtile import widget
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -166,7 +167,7 @@ screens = [
                     padding=6
                 ),
                 widget.Image(
-                    filename="~/.config/qtile/archlinux-icon-1024x1024-zpv2le9r.png",
+                    filename="~/.config/qtile/Archlinux-icon.svg.svg",
                     scale="False"
                 ),
                 widget.Sep(
@@ -236,12 +237,16 @@ screens = [
                     padding=0,
                     fontsize=42
                 ),
+                widget.TextBox(
+                    text='',
+                    background="#9ccfd8",
+                    foreground="#192724",
+                    padding=7,
+                ),
                 widget.Net(
-                    interface="enp1s0",
-                    format=" {interface}: {down} ↓↑ {up}",
+                    format='{down}↓↑{up}',
                     background="#9ccfd8",
                     foreground="#191724",
-                    update_interval=1.0
                 ),
                 widget.TextBox(
                     text='',
@@ -251,7 +256,7 @@ screens = [
                     fontsize=42
                 ),
                 widget.TextBox(
-                    text='',
+                    text='󰅐',
                     background="#c4a7e7",
                     foreground="#191724",
                     padding=7
@@ -269,14 +274,17 @@ screens = [
                     padding=0,
                     fontsize=42
                 ),
-                widget.Volume(
-                    foreground="#e0def4",
-                    fmt=" {}"
+                widget.Battery(
+                    foreground="#f1ebf3",
+                    charge_char="󱊥",
+                    discharge_char="󰂌",
+                    empty_char="󰂎",
+                    full_char="󱊣"
                 ),
                 widget.Systray(),
             ],
             25,
-            background="#232136",
+            background="232136",
         ),
     ),
     Screen(
@@ -339,6 +347,7 @@ screens = [
     ),
 
 ]
+
 
 # Workspace
 

@@ -8,6 +8,6 @@ count=0
 clientId1=10145dbd1dd000171016436500000009060004
 count=1
 program1=/usr/lib/DiscoverNotifier
-restartCommand1=/usr/lib/DiscoverNotifier,-session,10145dbd1dd000171016436500000009060004_1710164470_232654
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10145dbd1dd000171016436500000009060004_1710550246_17731
 restartStyleHint1=0
 userId1=drako

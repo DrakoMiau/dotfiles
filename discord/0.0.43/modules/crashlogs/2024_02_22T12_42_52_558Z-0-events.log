@@ -42,3 +42,12 @@
 2024-02-22T20:04:42.930Z 15: window.close win2
 2024-02-22T20:04:42.996Z 16: webContents.destroyed web2
 2024-02-22T20:04:43.005Z 17: window.closed win2
+2024-03-14T02:26:26.518Z 0: 
+
+----------------------------------------------
+2024-03-14T02:26:26.526Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/drako/.config/discord/0.0.43/modules
+2024-03-14T02:26:26.536Z 2: ✅ webContents.created web1 ""
+2024-03-14T02:26:26.539Z 3: ✅ window.created win1 "discord"
+2024-03-14T02:26:26.799Z 4: ✅ webContents.did-finish-load web1
+2024-03-14T02:26:33.681Z 5: before-quit
+2024-03-14T02:26:33.687Z 6: window.close win1
