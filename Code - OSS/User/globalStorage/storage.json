@@ -6,8 +6,7 @@
             "file:///etc/xdg": "__default__profile__"
         },
         "emptyWindows": {
-            "1710162161351": "__default__profile__",
-            "1710428946631": "__default__profile__"
+            "1713096598045": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -18,7 +17,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1710428946631"
+                "backupFolder": "1713096598045"
             }
         ]
     },
@@ -90,6 +89,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/pureCPP/Anything/linkedList/linkedList.cpp",
+                                        "path": "/home/drako/pureCPP/Anything/linkedList/linkedList.cpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pureCPP/Anything/linkedList/linkedList.cpp"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/Documents/OperatingSystems/Parcial/program2/program2.c",
+                                        "path": "/home/drako/Documents/OperatingSystems/Parcial/program2/program2.c",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/OperatingSystems/Parcial/program2/program2.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/Documents/OperatingSystems/Parcial/program1/program1.c",
+                                        "path": "/home/drako/Documents/OperatingSystems/Parcial/program1/program1.c",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/OperatingSystems/Parcial/program1/program1.c"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -167,17 +199,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/alacritty/alacritty.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/drako/config",
-                                        "path": "/home/drako/config",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/config"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1768,19 +1789,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#23272e",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "background": "#23272e",
+            "editorBackground": "#23272e",
+            "titleBarBackground": "#23272e",
+            "activityBarBackground": "#23272e",
+            "sideBarBackground": "#1e2227",
+            "statusBarBackground": "#1e2227",
+            "statusBarNoFolderBackground": "#1e2227"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1794,13 +1815,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/drako/.config/Code - OSS/Backups/1710428946631",
+            "backupPath": "/home/drako/.config/Code - OSS/Backups/1713096598045",
             "uiState": {
                 "mode": 1,
-                "x": 969,
-                "y": 34,
+                "x": 968,
+                "y": 33,
                 "width": 942,
-                "height": 1157
+                "height": 569
             }
         },
         "openedWindows": []

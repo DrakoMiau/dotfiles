@@ -1,72 +1,169 @@
-return{
-    {
-        "williamboman/mason.nvim",
-        config = function()
-            require("mason").setup()
-        end
+return {
+  {
+    "williamboman/mason.nvim",
+    lazy = false,
+    config = function()
+      require("mason").setup()
+    end,
+  },
+
+  {
+    "williamboman/mason-lspconfig.nvim",
+    lazy = false,
+    opts = {
+      auto_install = true,
     },
-    {
-        "williamboman/mason-lspconfig.nvim",
-        config = function()
-            require("mason-lspconfig").setup({
-                ensure_installed = {"lua_ls", "rust_analyzer", "angularls", "bashls", "clangd", "csharp_ls", "cssls", "cssmodules_ls", "unocss", "elixirls", "erlangls", "golangci_lint_ls", "gopls", "graphql", "html", "htmx", "hls", "jsonls", "biome", "jdtls", "java_language_server", "quick_lint_js", "tsserver", "vtsls", "julials", "kotlin_language_server", "ltex", "texlab", "marksman", "prosemd_lsp", "matlab_ls", "perlnavigator", "intelephense", "jedi_language_server", "pyre", "pylsp", "ruby_ls", "solargraph", "sorbet", "sqls", "sqlls", "taplo", "tailwindcss", "volar", "lemminx", "yamlls", "zls"}
-            })
-        end
-    },
-    {
-        "neovim/nvim-lspconfig",
-        config = function()
-            local lspconfig = require("lspconfig")
-            lspconfig.lua_ls.setup({})
-            lspconfig.tsserver.setup({})
-            lspconfig.ruby_ls.setup({})
-            lspconfig.solargraph.setup({})
-            lspconfig.sorbet.setup({})
-            lspconfig.sqls.setup({})
-            lspconfig.sqlls.setup({})
-            lspconfig.taplo.setup({})
-            lspconfig.tailwindcss.setup({})
-            lspconfig.volar.setup({})
-            lspconfig.lemminx.setup({})
-            lspconfig.yamlls.setup({})
-            lspconfig.zls.setup({})
-            lspconfig.rust_analyzer.setup({})
-            lspconfig.angularls.setup({})
-            lspconfig.bashls.setup({})
-            lspconfig.clangd.setup({})
-            lspconfig.csharp_ls.setup({})
-            lspconfig.cssls.setup({})
-            lspconfig.cssmodules_ls.setup({})
-            lspconfig.unocss.setup({})
-            lspconfig.elixirls.setup({})
-            lspconfig.erlangls.setup({})
-            lspconfig.golangci_lint_ls.setup({})
-            lspconfig.gopls.setup({})
-            lspconfig.graphql.setup({})
-            lspconfig.html.setup({})
-            lspconfig.htmx.setup({})
-            lspconfig.hls.setup({})
-            lspconfig.jsonls.setup({})
-            lspconfig.biome.setup({})
-            lspconfig.jdtls.setup({})
-            lspconfig.java_language_server.setup({})
-            lspconfig.quick_lint_js.setup({})
-            lspconfig.vtsls.setup({})
-            lspconfig.julials.setup({})
-            lspconfig.kotlin_language_server.setup({})
-            lspconfig.ltex.setup({})
-            lspconfig.texlab.setup({})
-            lspconfig.marksman.setup({})
-            lspconfig.prosemd_lsp.setup({})
-            lspconfig.matlab_ls.setup({})
-            lspconfig.perlnavigator.setup({})
-            lspconfig.intelephense.setup({})
-            lspconfig.jedi_language_server.setup({})
-            lspconfig.pyre.setup({})
-            lspconfig.pylsp.setup({})
-            vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-            vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
-            vim.keymap.set({ 'n' }, '<leader>ca', vim.lsp.buf.code_action, {})
-        end
-    }
+  },
+  {
+    "neovim/nvim-lspconfig",
+    lazy = false,
+    config = function()
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+      local lspconfig = require("lspconfig")
+      lspconfig.lua_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.tsserver.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.ruby_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.solargraph.setup({})
+      lspconfig.sorbet.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.sqls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.sqlls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.taplo.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.volar.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.lemminx.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.yamlls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.zls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.rust_analyzer.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.angularls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.bashls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.clangd.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.csharp_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.cssls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.cssmodules_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.unocss.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.elixirls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.erlangls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.golangci_lint_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.gopls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.graphql.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.html.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.htmx.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.hls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.jsonls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.biome.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.jdtls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.java_language_server.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.quick_lint_js.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.vtsls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.julials.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.kotlin_language_server.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.ltex.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.texlab.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.marksman.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.prosemd_lsp.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.matlab_ls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.perlnavigator.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.intelephense.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.jedi_language_server.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.pyre.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.pylsp.setup({
+        capabilities = capabilities,
+      })
+
+      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
+      vim.keymap.set({ "n" }, "<leader>ca", vim.lsp.buf.code_action, {})
+    end,
+  },
 }

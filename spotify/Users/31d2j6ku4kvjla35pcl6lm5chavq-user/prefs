@@ -1,2 +1,2 @@
 audio.play_bitrate_non_metered_migrated=true
-connect.dial_devices="[{\"address\":\"192.168.101.6\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1710378706,\"device_id\":\"aec9b0e6-8af3-478b-8106-0a15d4564748\",\"dial_location_url\":\"http://192.168.101.6:1870/\",\"display_name\":\"[LG] webOS TV UJ658T\",\"last_seen\":1710386711,\"manufacturer\":\"LG Electronics\",\"model_name\":\"LG Smart TV\",\"product_cap\":\"\",\"public_ip\":\"170.78.40.5\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"785dc8b3d9d6\",\"port\":9,\"retries\":2400}}]"
+connect.dial_devices="[]"

@@ -1,5 +1,5 @@
 import = [
-	"~/Themes/alacritty-theme/themes/seashells.toml"
+	"~/Themes/alacritty-theme/themes/rose-pine.toml"
 ]
 
 [window]
@@ -7,3 +7,4 @@ opacity = 0.9
 
 [font]
 normal = {family = "FiraCode Nerd Font", style = "Regular"}
+size = 11

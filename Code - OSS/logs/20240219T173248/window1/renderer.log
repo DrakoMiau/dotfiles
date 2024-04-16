@@ -1,3 +1,0 @@
-2024-02-19 17:32:49.357 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/drako/.config/picom/picom.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-02-19 17:32:49.613 [info] Started local extension host with pid 1661.
-2024-02-19 17:32:52.853 [info] [perf] Render performance baseline is 22ms

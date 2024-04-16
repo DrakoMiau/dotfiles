@@ -1,2 +1,3 @@
-2024/02/22-07:42:59.213 1eb9 Creating DB /home/drako/.config/discord/shared_proto_db since it was missing.
-2024/02/22-07:42:59.215 1eb9 Reusing MANIFEST /home/drako/.config/discord/shared_proto_db/MANIFEST-000001
+2024/02/22-12:54:56.384 20700 Reusing MANIFEST /home/drako/.config/discord/shared_proto_db/MANIFEST-000001
+2024/02/22-12:54:56.384 20700 Recovering log #3
+2024/02/22-12:54:56.384 20700 Reusing old log /home/drako/.config/discord/shared_proto_db/000003.log 

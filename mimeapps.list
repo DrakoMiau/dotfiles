@@ -1,0 +1,5 @@
+[Default Applications]
+application/vnd.debian.binary-package=Alacritty.desktop
+
+[Added Associations]
+application/vnd.debian.binary-package=Alacritty.desktop;

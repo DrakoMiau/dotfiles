@@ -61,8 +61,8 @@ keys = [
     
     # Terminal
 
-    Key([mod], "Return", lazy.spawn("alacritty")),
-    Key([mod], "a", lazy.spawn("kitty")),
+    Key([mod], "Return", lazy.spawn("kitty")),
+    Key([mod], "a", lazy.spawn("alacritty")),
 
     # Browser
 
@@ -158,7 +158,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper='~/Themes/wallpapers/wallpapersden.com_firewatch-4k-uhd_1920x1200.jpg',
+        wallpaper='~/Themes/wallpapers/minimalIceberg.jpg',
         wallpaper_mode='stretch',
         top=bar.Bar(
             [
@@ -177,12 +177,12 @@ screens = [
                 widget.GroupBox(
                     active="#ffffff",
                     rounded=False,
-                    highlight_color="#c4a7e7",
+                    highlight_color="#92b7b7",
                     highlight_method="line",
                     borderwidth=0
                 ),
                 widget.WindowName(
-                    foreground="#eb6f92",
+                    foreground="#9c7983",
                     markup=True,
                     font="CodeNewRoman Nerd Font",
                     fontsize=15,
@@ -190,49 +190,49 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    background="#232136",
-                    foreground="#f6c177",
+                    background="#1f1f24",
+                    foreground="#9db3b9",
                     padding=0,
                     fontsize=42
                 ),
                 widget.TextBox(
                     text=' ',
-                    background="#f6c177",
+                    background="#9db3b9",
                     foreground="#191724",
                     padding=7
                 ),
                 widget.CurrentLayout(
-                    background="#f6c177",
+                    background="#9db3b9",
                     foreground="#191724"
                 ),
                 widget.TextBox(
                     text='',
-                    background="#f6c177",
-                    foreground="#e0def4",
+                    background="#9db3b9",
+                    foreground="#80a6cd",
                     padding=0,
                     fontsize=42
                 ),
                 widget.CPU(
-                    background="#e0def4",
+                    background="#80a6cd",
                     foreground="191724",
                     format="󰘚 {load_percent}%"
                 ),
                 widget.TextBox(
                     text='',
-                    foreground="#eb6f92",
-                    background="#e0def4",
+                    foreground="#284562",
+                    background="#80a6cd",
                     padding=0,
                     fontsize=42
                 ),
                 widget.Memory(
                     format="{MemUsed: .0f}{mm}",
-                    background="#eb6f92",
-                    foreground="#191724",
+                    background="#284562",
+                    foreground="#161525",
                     interval=1.0
                 ),
                 widget.TextBox(
                     text='',
-                    background="#eb6f92",
+                    background="#284562",
                     foreground="#9ccfd8",
                     padding=0,
                     fontsize=42
@@ -251,31 +251,31 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#9ccfd8",
-                    foreground="#c4a7e7",
+                    foreground="#003139",
                     padding=0,
                     fontsize=42
                 ),
                 widget.TextBox(
                     text='󰅐',
-                    background="#c4a7e7",
-                    foreground="#191724",
+                    background="#003139",
+                    foreground="#aeafaf",
                     padding=7
                 ),
                 widget.Clock(
-                    background="#c4a7e7",
-                    foreground="#191724",
+                    background="#003139",
+                    foreground="#aeafaf",
                     format="%H:%M - %d/%m/%Y",
                     update_interval=60.0
                 ),
                 widget.TextBox(
                     text='',
-                    background="#c4a7e7",
-                    foreground="#232136",
+                    background="#003139",
+                    foreground="#1f1f24",
                     padding=0,
                     fontsize=42
                 ),
                 widget.Battery(
-                    foreground="#f1ebf3",
+                    foreground="#aeafaf",
                     charge_char="󱊥",
                     discharge_char="󰂌",
                     empty_char="󰂎",
@@ -284,7 +284,7 @@ screens = [
                 widget.Systray(),
             ],
             25,
-            background="232136",
+            background="#1f1f24",
         ),
     ),
     Screen(
@@ -342,7 +342,7 @@ screens = [
                 ),
             ],
             25,
-            background="#232136",
+            background="#1f1f24",
         ),
     ),
 

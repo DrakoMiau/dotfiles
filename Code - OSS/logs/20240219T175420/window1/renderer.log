@@ -1,3 +1,0 @@
-2024-02-19 17:54:21.211 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/drako/.config/qtile/config.py","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-02-19 17:54:21.474 [info] Started local extension host with pid 1026.
-2024-02-19 17:54:24.625 [info] [perf] Render performance baseline is 22ms

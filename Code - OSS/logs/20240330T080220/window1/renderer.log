@@ -1,0 +1,11 @@
+2024-03-30 08:02:21.563 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/drako/Documents/OperatingSystems/Parcial/program2/program2.c","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-03-30 08:02:21.919 [info] Started local extension host with pid 24023.
+2024-03-30 08:02:25.067 [info] [perf] Render performance baseline is 41ms
+2024-03-30 08:02:28.395 [error] Unable to read file '/boot/grub/grub.cfg' (Error: File not modified since): Error: Unable to read file '/boot/grub/grub.cfg' (Error: File not modified since)
+    at n.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:653:19875)
+    at n.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:653:19763)
+    at async d.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2423:42865)
+    at async d.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2423:42622)
+    at async T.Cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2412:13526)
+    at async T.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2412:11973)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2423:38734
