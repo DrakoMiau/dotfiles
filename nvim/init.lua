@@ -79,4 +79,4 @@ config.setup({
   indent = { enable = true },
 })
 
-vim.cmd("colorscheme nightfox")
+vim.cmd("colorscheme nordic")

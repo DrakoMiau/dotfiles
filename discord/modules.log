@@ -1157,3 +1157,124 @@
 2024-04-15T12:31:10.491Z [Modules] No updates to install
 2024-04-15T12:31:10.491Z [Modules] Checking for host updates.
 2024-04-15T12:31:10.884Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:15:39.458Z [Modules] Modules initializing
+2024-04-17T03:15:39.458Z [Modules] Distribution: remote
+2024-04-17T03:15:39.458Z [Modules] Host updates: enabled
+2024-04-17T03:15:39.458Z [Modules] Module updates: enabled
+2024-04-17T03:15:39.459Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:15:39.459Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:15:39.459Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:15:39.699Z [Modules] Bootstrapping...
+2024-04-17T03:15:39.700Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-04-17T03:15:39.701Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-04-17T03:15:39.701Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-04-17T03:15:39.702Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-04-17T03:15:39.702Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-04-17T03:15:39.703Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-04-17T03:15:39.703Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-04-17T03:15:39.704Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-04-17T03:15:39.704Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-04-17T03:15:39.705Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-04-17T03:15:39.705Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-04-17T03:15:39.705Z [Modules] Checking for host updates.
+2024-04-17T03:15:40.115Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:16:20.948Z [Modules] Modules initializing
+2024-04-17T03:16:20.948Z [Modules] Distribution: remote
+2024-04-17T03:16:20.948Z [Modules] Host updates: enabled
+2024-04-17T03:16:20.948Z [Modules] Module updates: enabled
+2024-04-17T03:16:20.949Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:16:20.949Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:16:20.949Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:16:21.126Z [Modules] No updates to install
+2024-04-17T03:16:21.126Z [Modules] Checking for host updates.
+2024-04-17T03:16:21.484Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:16:56.704Z [Modules] Modules initializing
+2024-04-17T03:16:56.704Z [Modules] Distribution: remote
+2024-04-17T03:16:56.705Z [Modules] Host updates: enabled
+2024-04-17T03:16:56.705Z [Modules] Module updates: enabled
+2024-04-17T03:16:56.705Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:16:56.705Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:16:56.705Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:16:56.901Z [Modules] No updates to install
+2024-04-17T03:16:56.901Z [Modules] Checking for host updates.
+2024-04-17T03:16:57.229Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:17:52.158Z [Modules] Modules initializing
+2024-04-17T03:17:52.158Z [Modules] Distribution: remote
+2024-04-17T03:17:52.158Z [Modules] Host updates: enabled
+2024-04-17T03:17:52.158Z [Modules] Module updates: enabled
+2024-04-17T03:17:52.158Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:17:52.158Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:17:52.158Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:17:52.326Z [Modules] No updates to install
+2024-04-17T03:17:52.326Z [Modules] Checking for host updates.
+2024-04-17T03:17:52.942Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:19:02.974Z [Modules] Modules initializing
+2024-04-17T03:19:02.974Z [Modules] Distribution: remote
+2024-04-17T03:19:02.974Z [Modules] Host updates: enabled
+2024-04-17T03:19:02.974Z [Modules] Module updates: enabled
+2024-04-17T03:19:02.974Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:19:02.975Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:19:02.975Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:19:03.145Z [Modules] No updates to install
+2024-04-17T03:19:03.146Z [Modules] Checking for host updates.
+2024-04-17T03:19:03.500Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:19:18.173Z [Modules] Modules initializing
+2024-04-17T03:19:18.173Z [Modules] Distribution: remote
+2024-04-17T03:19:18.173Z [Modules] Host updates: enabled
+2024-04-17T03:19:18.173Z [Modules] Module updates: enabled
+2024-04-17T03:19:18.173Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:19:18.173Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:19:18.173Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:19:18.366Z [Modules] No updates to install
+2024-04-17T03:19:18.367Z [Modules] Checking for host updates.
+2024-04-17T03:19:23.666Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:23:16.730Z [Modules] Modules initializing
+2024-04-17T03:23:16.730Z [Modules] Distribution: remote
+2024-04-17T03:23:16.730Z [Modules] Host updates: enabled
+2024-04-17T03:23:16.730Z [Modules] Module updates: enabled
+2024-04-17T03:23:16.730Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:23:16.730Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:23:16.730Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:23:16.910Z [Modules] No updates to install
+2024-04-17T03:23:16.911Z [Modules] Checking for host updates.
+2024-04-17T03:23:17.177Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:34:12.813Z [Modules] Modules initializing
+2024-04-17T03:34:12.813Z [Modules] Distribution: remote
+2024-04-17T03:34:12.814Z [Modules] Host updates: enabled
+2024-04-17T03:34:12.814Z [Modules] Module updates: enabled
+2024-04-17T03:34:12.814Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:34:12.814Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:34:12.814Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:34:12.986Z [Modules] No updates to install
+2024-04-17T03:34:12.987Z [Modules] Checking for host updates.
+2024-04-17T03:34:13.229Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:37:18.364Z [Modules] Modules initializing
+2024-04-17T03:37:18.364Z [Modules] Distribution: remote
+2024-04-17T03:37:18.364Z [Modules] Host updates: enabled
+2024-04-17T03:37:18.364Z [Modules] Module updates: enabled
+2024-04-17T03:37:18.364Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:37:18.365Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:37:18.365Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:37:18.563Z [Modules] No updates to install
+2024-04-17T03:37:18.564Z [Modules] Checking for host updates.
+2024-04-17T03:37:18.790Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:44:39.023Z [Modules] Modules initializing
+2024-04-17T03:44:39.024Z [Modules] Distribution: remote
+2024-04-17T03:44:39.024Z [Modules] Host updates: enabled
+2024-04-17T03:44:39.024Z [Modules] Module updates: enabled
+2024-04-17T03:44:39.025Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:44:39.025Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:44:39.025Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:44:39.234Z [Modules] No updates to install
+2024-04-17T03:44:39.235Z [Modules] Checking for host updates.
+2024-04-17T03:44:39.460Z [Modules] Host update is available. Manual update required!
+2024-04-17T03:49:31.477Z [Modules] Modules initializing
+2024-04-17T03:49:31.477Z [Modules] Distribution: remote
+2024-04-17T03:49:31.477Z [Modules] Host updates: enabled
+2024-04-17T03:49:31.477Z [Modules] Module updates: enabled
+2024-04-17T03:49:31.477Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T03:49:31.478Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T03:49:31.478Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T03:49:31.640Z [Modules] No updates to install
+2024-04-17T03:49:31.641Z [Modules] Checking for host updates.
+2024-04-17T03:49:32.008Z [Modules] Host update is available. Manual update required!

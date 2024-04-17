@@ -6,7 +6,8 @@
             "file:///etc/xdg": "__default__profile__"
         },
         "emptyWindows": {
-            "1713096598045": "__default__profile__"
+            "1713096598045": "__default__profile__",
+            "1713275323321": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,7 +18,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1713096598045"
+                "backupFolder": "1713275323321"
             }
         ]
     },
@@ -89,6 +90,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/Downloads/fallout-grub-theme-master/theme.txt",
+                                        "path": "/home/drako/Downloads/fallout-grub-theme-master/theme.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/fallout-grub-theme-master/theme.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -188,17 +200,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/picom/picom"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/drako/.config/alacritty/alacritty.toml",
-                                        "path": "/home/drako/.config/alacritty/alacritty.toml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/alacritty/alacritty.toml"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -609,13 +610,17 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side",
+                                                "id": "workbench.action.activityBarLocation.default",
+                                                "label": "&&Default",
                                                 "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.top",
                                                 "label": "&&Top"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.bottom",
+                                                "label": "&&Bottom"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -722,7 +727,7 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs",
+                                    "label": "Toggle &&Breadcrumbs",
                                     "checked": true
                                 },
                                 {
@@ -897,7 +902,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1815,13 +1821,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/drako/.config/Code - OSS/Backups/1713096598045",
+            "backupPath": "/home/drako/.config/Code - OSS/Backups/1713275323321",
             "uiState": {
                 "mode": 1,
-                "x": 968,
-                "y": 33,
+                "x": 2889,
+                "y": 729,
                 "width": 942,
-                "height": 569
+                "height": 341
             }
         },
         "openedWindows": []
