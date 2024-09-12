@@ -1,0 +1,3 @@
+2024-05-30 15:11:35.452 [info] Started local extension host with pid 32188.
+2024-05-30 15:11:38.556 [info] [perf] Render performance baseline is 42ms
+2024-05-30 15:11:41.712 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/drako/competitiveProgramming/watermelon/watermelon.cpp 

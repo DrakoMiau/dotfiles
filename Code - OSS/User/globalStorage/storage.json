@@ -2,25 +2,23 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/drako/.config/qtile": "__default__profile__",
-            "file:///etc/xdg": "__default__profile__"
+            "file:///etc/xdg": "__default__profile__",
+            "file:///home/drako/jsProjects/menuConListas": "__default__profile__",
+            "file:///home/drako/.config/qtile": "__default__profile__"
         },
-        "emptyWindows": {
-            "1713096598045": "__default__profile__",
-            "1713275323321": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "c978cb86ebb70d70b9e7d009f5d9e0b81570f6ea5a04cd4a41529d3b4e831429",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1713275323321"
+                "folderUri": "file:///home/drako/.config/qtile"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -70,17 +68,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/xdg",
-                                        "path": "/etc/xdg",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/xdg"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/drako/.config/qtile",
                                         "path": "/home/drako/.config/qtile",
                                         "scheme": "file"
@@ -89,18 +76,84 @@
                                     "label": "~/.config/qtile"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/jsProjects/menuConListas",
+                                        "path": "/home/drako/jsProjects/menuConListas",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/jsProjects/menuConListas"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/xdg",
+                                        "path": "/etc/xdg",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/xdg"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/drako/Downloads/fallout-grub-theme-master/theme.txt",
-                                        "path": "/home/drako/Downloads/fallout-grub-theme-master/theme.txt",
+                                        "external": "file:///home/drako/competitiveProgramming/watermelon/watermelon.cpp",
+                                        "path": "/home/drako/competitiveProgramming/watermelon/watermelon.cpp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/fallout-grub-theme-master/theme.txt"
+                                    "label": "~/competitiveProgramming/watermelon/watermelon.cpp"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/pureCPP/Anything/santigoParcial/punto1/punto1.cpp",
+                                        "path": "/home/drako/pureCPP/Anything/santigoParcial/punto1/punto1.cpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pureCPP/Anything/santigoParcial/punto1/punto1.cpp"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/pureCPP/Anything/pointers/rawPointers/rawPointers.cpp",
+                                        "path": "/home/drako/pureCPP/Anything/pointers/rawPointers/rawPointers.cpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pureCPP/Anything/pointers/rawPointers/rawPointers.cpp"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/pureCPP/Anything/queue/queue.cpp",
+                                        "path": "/home/drako/pureCPP/Anything/queue/queue.cpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pureCPP/Anything/queue/queue.cpp"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/drako/pureCPP/Anything/orderedLinkedList/orderedLinkedList.cpp",
+                                        "path": "/home/drako/pureCPP/Anything/orderedLinkedList/orderedLinkedList.cpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/pureCPP/Anything/orderedLinkedList/orderedLinkedList.cpp"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -156,50 +209,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.ssh/id_rsa.pub"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/drako/.config/qtile/config.py",
-                                        "path": "/home/drako/.config/qtile/config.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/qtile/config.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/drako/.config/picom/picom.conf",
-                                        "path": "/home/drako/.config/picom/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom/picom.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/xdg/picom.conf.example",
-                                        "path": "/etc/xdg/picom.conf.example",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/xdg/picom.conf.example"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/drako/.config/picom/picom",
-                                        "path": "/home/drako/.config/picom/picom",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom/picom"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -383,6 +392,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -902,8 +915,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -912,8 +924,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1418,6 +1429,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1821,13 +1837,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/drako/.config/Code - OSS/Backups/1713275323321",
+            "folder": "file:///home/drako/.config/qtile",
+            "backupPath": "/home/drako/.config/Code - OSS/Backups/3ce81d441096ddd66394d80b9851ec08",
             "uiState": {
                 "mode": 1,
-                "x": 2889,
-                "y": 729,
-                "width": 942,
-                "height": 341
+                "x": 709,
+                "y": 34,
+                "width": 682,
+                "height": 1007
             }
         },
         "openedWindows": []

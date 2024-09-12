@@ -1,0 +1,42 @@
+2024-07-30T00:36:12.257Z 0: 
+
+----------------------------------------------
+2024-07-30T00:36:12.271Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:36:12.277Z 2: ✅ webContents.created web1 ""
+2024-07-30T00:36:12.280Z 3: ✅ window.created win1 "discord"
+2024-07-30T00:36:12.553Z 4: ✅ webContents.did-finish-load web1
+2024-07-30T00:36:21.692Z 5: window.close win1
+2024-07-30T00:39:47.297Z 0: 
+
+----------------------------------------------
+2024-07-30T00:39:47.368Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:39:47.370Z 2: ✅ webContents.created web1 "index.html"
+2024-07-30T00:39:47.371Z 3: ✅ window.created win1 "discord"
+2024-07-30T00:39:47.619Z 4: ✅ webContents.did-finish-load web1
+2024-07-30T00:39:58.300Z 5: window.close win1
+2024-07-30T00:39:58.307Z 6: webContents.destroyed web1
+2024-07-30T00:41:41.319Z 0: 
+
+----------------------------------------------
+2024-07-30T00:41:41.366Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:41:41.368Z 2: ✅ webContents.created web1 ""
+2024-07-30T00:41:41.369Z 3: ✅ window.created win1 "discord"
+2024-07-30T00:41:41.640Z 4: ✅ webContents.did-finish-load web1
+2024-07-30T00:41:46.977Z 5: before-quit
+2024-07-30T00:41:47.017Z 6: window.close win1
+2024-08-04T14:10:52.336Z 0: 
+
+----------------------------------------------
+2024-08-04T14:10:52.344Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/drako/.config/discord/0.0.56/modules
+2024-08-04T14:10:52.352Z 2: ✅ webContents.created web1 ""
+2024-08-04T14:10:52.354Z 3: ✅ window.created win1 "discord"
+2024-08-04T14:10:52.574Z 4: ✅ webContents.did-finish-load web1
+2024-08-04T14:11:00.218Z 5: window.close win1
+2024-08-04T14:15:37.990Z 0: 
+
+----------------------------------------------
+2024-08-04T14:15:37.999Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.56"}, modulepath: /home/drako/.config/discord/0.0.56/modules
+2024-08-04T14:15:38.008Z 2: ✅ webContents.created web1 ""
+2024-08-04T14:15:38.009Z 3: ✅ window.created win1 "discord"
+2024-08-04T14:15:38.217Z 4: ✅ webContents.did-finish-load web1
+2024-08-04T14:15:44.197Z 5: window.close win1

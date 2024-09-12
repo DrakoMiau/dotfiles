@@ -1,0 +1,11 @@
+2024-05-30 15:11:35.939 [info] Extension host with pid 32188 started
+2024-05-30 15:11:35.987 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-30 15:11:36.274 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-05-30 15:11:36.297 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-30 15:11:36.308 [info] Eager extensions activated
+2024-05-30 15:11:36.313 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 15:11:36.314 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 15:11:36.320 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 15:11:36.357 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-30 15:11:41.771 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-30 15:11:41.773 [info] Extension host with pid 32188 exiting with code 0

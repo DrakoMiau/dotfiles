@@ -1,3 +1,0 @@
-2024-04-16 08:48:43.729 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/drako/Downloads/fallout-grub-theme-master/theme.txt","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-04-16 08:48:44.125 [info] Started local extension host with pid 14100.
-2024-04-16 08:48:47.217 [info] [perf] Render performance baseline is 24ms

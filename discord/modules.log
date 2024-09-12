@@ -1278,3 +1278,1209 @@
 2024-04-17T03:49:31.640Z [Modules] No updates to install
 2024-04-17T03:49:31.641Z [Modules] Checking for host updates.
 2024-04-17T03:49:32.008Z [Modules] Host update is available. Manual update required!
+2024-04-17T15:35:43.073Z [Modules] Modules initializing
+2024-04-17T15:35:43.073Z [Modules] Distribution: remote
+2024-04-17T15:35:43.073Z [Modules] Host updates: enabled
+2024-04-17T15:35:43.073Z [Modules] Module updates: enabled
+2024-04-17T15:35:43.073Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T15:35:43.073Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T15:35:43.073Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T15:35:43.286Z [Modules] No updates to install
+2024-04-17T15:35:43.287Z [Modules] Checking for host updates.
+2024-04-17T15:35:43.586Z [Modules] Host update is available. Manual update required!
+2024-04-17T15:36:03.437Z [Modules] Modules initializing
+2024-04-17T15:36:03.437Z [Modules] Distribution: remote
+2024-04-17T15:36:03.437Z [Modules] Host updates: enabled
+2024-04-17T15:36:03.437Z [Modules] Module updates: enabled
+2024-04-17T15:36:03.438Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T15:36:03.438Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T15:36:03.438Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T15:36:03.617Z [Modules] No updates to install
+2024-04-17T15:36:03.618Z [Modules] Checking for host updates.
+2024-04-17T15:36:03.961Z [Modules] Host update is available. Manual update required!
+2024-04-17T18:27:52.021Z [Modules] Modules initializing
+2024-04-17T18:27:52.022Z [Modules] Distribution: remote
+2024-04-17T18:27:52.022Z [Modules] Host updates: enabled
+2024-04-17T18:27:52.022Z [Modules] Module updates: enabled
+2024-04-17T18:27:52.022Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T18:27:52.022Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T18:27:52.022Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T18:27:52.159Z [Modules] No updates to install
+2024-04-17T18:27:52.159Z [Modules] Checking for host updates.
+2024-04-17T18:27:52.480Z [Modules] Host update is available. Manual update required!
+2024-04-17T18:28:39.164Z [Modules] Modules initializing
+2024-04-17T18:28:39.164Z [Modules] Distribution: remote
+2024-04-17T18:28:39.164Z [Modules] Host updates: enabled
+2024-04-17T18:28:39.164Z [Modules] Module updates: enabled
+2024-04-17T18:28:39.164Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T18:28:39.164Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T18:28:39.164Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T18:28:39.344Z [Modules] No updates to install
+2024-04-17T18:28:39.344Z [Modules] Checking for host updates.
+2024-04-17T18:28:39.686Z [Modules] Host update is available. Manual update required!
+2024-04-17T18:30:21.961Z [Modules] Modules initializing
+2024-04-17T18:30:21.961Z [Modules] Distribution: remote
+2024-04-17T18:30:21.961Z [Modules] Host updates: enabled
+2024-04-17T18:30:21.961Z [Modules] Module updates: enabled
+2024-04-17T18:30:21.961Z [Modules] Module install path: /home/drako/.config/discord/0.0.49/modules
+2024-04-17T18:30:21.962Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.49/modules/installed.json
+2024-04-17T18:30:21.962Z [Modules] Module download path: /home/drako/.config/discord/0.0.49/modules/pending
+2024-04-17T18:30:22.115Z [Modules] No updates to install
+2024-04-17T18:30:22.115Z [Modules] Checking for host updates.
+2024-04-17T18:30:22.498Z [Modules] Host update is available. Manual update required!
+2024-04-17T23:11:25.983Z [Modules] Modules initializing
+2024-04-17T23:11:25.983Z [Modules] Distribution: remote
+2024-04-17T23:11:25.983Z [Modules] Host updates: enabled
+2024-04-17T23:11:25.983Z [Modules] Module updates: enabled
+2024-04-17T23:11:25.984Z [Modules] Module install path: /home/drako/.config/discord/0.0.50/modules
+2024-04-17T23:11:25.984Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.50/modules/installed.json
+2024-04-17T23:11:25.984Z [Modules] Module download path: /home/drako/.config/discord/0.0.50/modules/pending
+2024-04-17T23:11:26.172Z [Modules] Bootstrapping...
+2024-04-17T23:11:26.173Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-04-17T23:11:26.174Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-04-17T23:11:26.175Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-04-17T23:11:26.176Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-04-17T23:11:26.176Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-04-17T23:11:26.177Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-04-17T23:11:26.177Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-04-17T23:11:26.178Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-04-17T23:11:26.178Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-04-17T23:11:26.179Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-04-17T23:11:26.179Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-04-17T23:11:26.179Z [Modules] Checking for host updates.
+2024-04-17T23:11:26.530Z [Modules] Host is up to date.
+2024-04-17T23:11:26.530Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-17T23:11:26.569Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-04-17T23:11:26.569Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-04-17T23:11:26.569Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-04-17T23:11:26.569Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-04-17T23:11:26.569Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-04-17T23:11:26.569Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-04-17T23:11:26.570Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip
+2024-04-17T23:11:27.178Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 1%
+2024-04-17T23:11:27.184Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 3%
+2024-04-17T23:11:27.186Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 4%
+2024-04-17T23:11:27.188Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 7%
+2024-04-17T23:11:27.190Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 10%
+2024-04-17T23:11:27.190Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 11%
+2024-04-17T23:11:27.193Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 14%
+2024-04-17T23:11:27.195Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 17%
+2024-04-17T23:11:27.195Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 20%
+2024-04-17T23:11:27.197Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 23%
+2024-04-17T23:11:27.198Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 25%
+2024-04-17T23:11:27.199Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 27%
+2024-04-17T23:11:27.205Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 30%
+2024-04-17T23:11:27.207Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 39%
+2024-04-17T23:11:27.208Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 40%
+2024-04-17T23:11:27.209Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 43%
+2024-04-17T23:11:27.210Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 45%
+2024-04-17T23:11:27.211Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 48%
+2024-04-17T23:11:27.212Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 50%
+2024-04-17T23:11:27.213Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 51%
+2024-04-17T23:11:27.214Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 54%
+2024-04-17T23:11:27.216Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 57%
+2024-04-17T23:11:27.217Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 62%
+2024-04-17T23:11:27.218Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 66%
+2024-04-17T23:11:27.219Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 69%
+2024-04-17T23:11:27.220Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 71%
+2024-04-17T23:11:27.221Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 74%
+2024-04-17T23:11:27.222Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 77%
+2024-04-17T23:11:27.223Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 79%
+2024-04-17T23:11:27.231Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 82%
+2024-04-17T23:11:27.235Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 93%
+2024-04-17T23:11:27.236Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 94%
+2024-04-17T23:11:27.237Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip: 100%
+2024-04-17T23:11:27.239Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-04-17T23:11:27.239Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip
+2024-04-17T23:11:27.347Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 5%
+2024-04-17T23:11:27.347Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 6%
+2024-04-17T23:11:27.349Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 10%
+2024-04-17T23:11:27.349Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 11%
+2024-04-17T23:11:27.352Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 12%
+2024-04-17T23:11:27.356Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 16%
+2024-04-17T23:11:27.357Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 22%
+2024-04-17T23:11:27.358Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 26%
+2024-04-17T23:11:27.358Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 29%
+2024-04-17T23:11:27.359Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 33%
+2024-04-17T23:11:27.361Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 36%
+2024-04-17T23:11:27.361Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 37%
+2024-04-17T23:11:27.373Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 40%
+2024-04-17T23:11:27.375Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 52%
+2024-04-17T23:11:27.376Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 55%
+2024-04-17T23:11:27.377Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 59%
+2024-04-17T23:11:27.377Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 66%
+2024-04-17T23:11:27.378Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 73%
+2024-04-17T23:11:27.379Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 83%
+2024-04-17T23:11:27.382Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 87%
+2024-04-17T23:11:27.383Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip: 100%
+2024-04-17T23:11:27.385Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-04-17T23:11:27.385Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip
+2024-04-17T23:11:27.489Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 1%
+2024-04-17T23:11:27.490Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 3%
+2024-04-17T23:11:27.493Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 4%
+2024-04-17T23:11:27.495Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 5%
+2024-04-17T23:11:27.496Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 6%
+2024-04-17T23:11:27.519Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 7%
+2024-04-17T23:11:27.520Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 8%
+2024-04-17T23:11:27.521Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 9%
+2024-04-17T23:11:27.521Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 10%
+2024-04-17T23:11:27.522Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 11%
+2024-04-17T23:11:27.523Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 14%
+2024-04-17T23:11:27.524Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 15%
+2024-04-17T23:11:27.526Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 16%
+2024-04-17T23:11:27.532Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 17%
+2024-04-17T23:11:27.534Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 18%
+2024-04-17T23:11:27.542Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 19%
+2024-04-17T23:11:27.543Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 20%
+2024-04-17T23:11:27.544Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 23%
+2024-04-17T23:11:27.550Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 24%
+2024-04-17T23:11:27.551Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 25%
+2024-04-17T23:11:27.552Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 26%
+2024-04-17T23:11:27.553Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 28%
+2024-04-17T23:11:27.572Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 29%
+2024-04-17T23:11:27.573Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 31%
+2024-04-17T23:11:27.574Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 33%
+2024-04-17T23:11:27.581Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 34%
+2024-04-17T23:11:27.582Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 37%
+2024-04-17T23:11:27.583Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 39%
+2024-04-17T23:11:27.584Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 40%
+2024-04-17T23:11:27.598Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 41%
+2024-04-17T23:11:27.603Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 42%
+2024-04-17T23:11:27.604Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 43%
+2024-04-17T23:11:27.604Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 45%
+2024-04-17T23:11:27.605Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 46%
+2024-04-17T23:11:27.612Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 47%
+2024-04-17T23:11:27.617Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 48%
+2024-04-17T23:11:27.618Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 49%
+2024-04-17T23:11:27.623Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 50%
+2024-04-17T23:11:27.625Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 51%
+2024-04-17T23:11:27.627Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 52%
+2024-04-17T23:11:27.631Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 53%
+2024-04-17T23:11:27.633Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 54%
+2024-04-17T23:11:27.635Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 55%
+2024-04-17T23:11:27.638Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 56%
+2024-04-17T23:11:27.639Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 57%
+2024-04-17T23:11:27.643Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 58%
+2024-04-17T23:11:27.644Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 59%
+2024-04-17T23:11:27.647Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 60%
+2024-04-17T23:11:27.652Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 61%
+2024-04-17T23:11:27.667Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 62%
+2024-04-17T23:11:27.668Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 64%
+2024-04-17T23:11:27.669Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 68%
+2024-04-17T23:11:27.688Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 69%
+2024-04-17T23:11:27.692Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 70%
+2024-04-17T23:11:27.695Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 71%
+2024-04-17T23:11:27.696Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 72%
+2024-04-17T23:11:27.699Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 73%
+2024-04-17T23:11:27.705Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 74%
+2024-04-17T23:11:27.706Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 75%
+2024-04-17T23:11:27.707Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 76%
+2024-04-17T23:11:27.720Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 77%
+2024-04-17T23:11:27.721Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 78%
+2024-04-17T23:11:27.722Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 80%
+2024-04-17T23:11:27.723Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 82%
+2024-04-17T23:11:27.724Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 83%
+2024-04-17T23:11:27.727Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 84%
+2024-04-17T23:11:27.729Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 85%
+2024-04-17T23:11:27.730Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 86%
+2024-04-17T23:11:27.732Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 87%
+2024-04-17T23:11:27.736Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 88%
+2024-04-17T23:11:27.737Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 89%
+2024-04-17T23:11:27.738Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 90%
+2024-04-17T23:11:27.743Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 91%
+2024-04-17T23:11:27.744Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 92%
+2024-04-17T23:11:27.745Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 93%
+2024-04-17T23:11:27.746Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 94%
+2024-04-17T23:11:27.748Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 95%
+2024-04-17T23:11:27.749Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 96%
+2024-04-17T23:11:27.760Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 97%
+2024-04-17T23:11:27.762Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 98%
+2024-04-17T23:11:27.764Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 99%
+2024-04-17T23:11:27.764Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip: 100%
+2024-04-17T23:11:27.766Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-04-17T23:11:27.766Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip
+2024-04-17T23:11:27.991Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 3%
+2024-04-17T23:11:27.993Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 5%
+2024-04-17T23:11:27.994Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 6%
+2024-04-17T23:11:27.995Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 8%
+2024-04-17T23:11:27.995Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 9%
+2024-04-17T23:11:27.997Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 11%
+2024-04-17T23:11:27.997Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 12%
+2024-04-17T23:11:28.000Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 14%
+2024-04-17T23:11:28.000Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 15%
+2024-04-17T23:11:28.015Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 17%
+2024-04-17T23:11:28.016Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 20%
+2024-04-17T23:11:28.017Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 22%
+2024-04-17T23:11:28.017Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 24%
+2024-04-17T23:11:28.018Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 29%
+2024-04-17T23:11:28.019Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 33%
+2024-04-17T23:11:28.019Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 37%
+2024-04-17T23:11:28.020Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 45%
+2024-04-17T23:11:28.021Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 48%
+2024-04-17T23:11:28.030Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 50%
+2024-04-17T23:11:28.031Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 51%
+2024-04-17T23:11:28.031Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 53%
+2024-04-17T23:11:28.032Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 54%
+2024-04-17T23:11:28.038Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 56%
+2024-04-17T23:11:28.039Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 57%
+2024-04-17T23:11:28.043Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 59%
+2024-04-17T23:11:28.044Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 64%
+2024-04-17T23:11:28.044Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 66%
+2024-04-17T23:11:28.048Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 79%
+2024-04-17T23:11:28.050Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 81%
+2024-04-17T23:11:28.060Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 82%
+2024-04-17T23:11:28.067Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 84%
+2024-04-17T23:11:28.068Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 87%
+2024-04-17T23:11:28.068Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 91%
+2024-04-17T23:11:28.069Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 95%
+2024-04-17T23:11:28.069Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip: 100%
+2024-04-17T23:11:28.071Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-04-17T23:11:28.071Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip
+2024-04-17T23:11:28.192Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 1%
+2024-04-17T23:11:28.197Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 2%
+2024-04-17T23:11:28.200Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 3%
+2024-04-17T23:11:28.239Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 4%
+2024-04-17T23:11:28.241Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 5%
+2024-04-17T23:11:28.242Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 6%
+2024-04-17T23:11:28.242Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 7%
+2024-04-17T23:11:28.264Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 8%
+2024-04-17T23:11:28.265Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 9%
+2024-04-17T23:11:28.266Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 10%
+2024-04-17T23:11:28.275Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 11%
+2024-04-17T23:11:28.281Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 12%
+2024-04-17T23:11:28.293Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 13%
+2024-04-17T23:11:28.294Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 14%
+2024-04-17T23:11:28.305Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 15%
+2024-04-17T23:11:28.306Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 16%
+2024-04-17T23:11:28.308Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 17%
+2024-04-17T23:11:28.312Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 18%
+2024-04-17T23:11:28.318Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 19%
+2024-04-17T23:11:28.321Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 20%
+2024-04-17T23:11:28.327Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 21%
+2024-04-17T23:11:28.335Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 22%
+2024-04-17T23:11:28.342Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 23%
+2024-04-17T23:11:28.348Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 24%
+2024-04-17T23:11:28.384Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 25%
+2024-04-17T23:11:28.385Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 26%
+2024-04-17T23:11:28.389Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 27%
+2024-04-17T23:11:28.398Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 28%
+2024-04-17T23:11:28.402Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 29%
+2024-04-17T23:11:28.412Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 30%
+2024-04-17T23:11:28.417Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 31%
+2024-04-17T23:11:28.428Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 32%
+2024-04-17T23:11:28.431Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 33%
+2024-04-17T23:11:28.433Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 34%
+2024-04-17T23:11:28.438Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 35%
+2024-04-17T23:11:28.442Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 36%
+2024-04-17T23:11:28.448Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 37%
+2024-04-17T23:11:28.453Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 38%
+2024-04-17T23:11:28.459Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 39%
+2024-04-17T23:11:28.462Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 40%
+2024-04-17T23:11:28.467Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 41%
+2024-04-17T23:11:28.471Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 42%
+2024-04-17T23:11:28.479Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 43%
+2024-04-17T23:11:28.484Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 44%
+2024-04-17T23:11:28.487Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 45%
+2024-04-17T23:11:28.492Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 46%
+2024-04-17T23:11:28.496Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 47%
+2024-04-17T23:11:28.499Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 48%
+2024-04-17T23:11:28.526Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 49%
+2024-04-17T23:11:28.527Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 50%
+2024-04-17T23:11:28.528Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 51%
+2024-04-17T23:11:28.529Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 52%
+2024-04-17T23:11:28.547Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 53%
+2024-04-17T23:11:28.559Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 54%
+2024-04-17T23:11:28.567Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 55%
+2024-04-17T23:11:28.589Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 56%
+2024-04-17T23:11:28.590Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 57%
+2024-04-17T23:11:28.591Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 58%
+2024-04-17T23:11:28.592Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 59%
+2024-04-17T23:11:28.594Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 60%
+2024-04-17T23:11:28.595Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 61%
+2024-04-17T23:11:28.597Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 62%
+2024-04-17T23:11:28.602Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 63%
+2024-04-17T23:11:28.624Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 64%
+2024-04-17T23:11:28.632Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 65%
+2024-04-17T23:11:28.633Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 66%
+2024-04-17T23:11:28.650Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 67%
+2024-04-17T23:11:28.653Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 68%
+2024-04-17T23:11:28.655Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 69%
+2024-04-17T23:11:28.675Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 70%
+2024-04-17T23:11:28.693Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 71%
+2024-04-17T23:11:28.714Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 72%
+2024-04-17T23:11:28.715Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 73%
+2024-04-17T23:11:28.716Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 74%
+2024-04-17T23:11:28.735Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 75%
+2024-04-17T23:11:28.736Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 76%
+2024-04-17T23:11:28.736Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 77%
+2024-04-17T23:11:28.737Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 78%
+2024-04-17T23:11:28.738Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 79%
+2024-04-17T23:11:28.739Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 80%
+2024-04-17T23:11:28.740Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 81%
+2024-04-17T23:11:28.743Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 82%
+2024-04-17T23:11:28.747Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 83%
+2024-04-17T23:11:28.754Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 84%
+2024-04-17T23:11:28.758Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 85%
+2024-04-17T23:11:28.765Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 86%
+2024-04-17T23:11:28.767Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 87%
+2024-04-17T23:11:28.784Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 88%
+2024-04-17T23:11:28.791Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 89%
+2024-04-17T23:11:28.798Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 90%
+2024-04-17T23:11:28.799Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 91%
+2024-04-17T23:11:28.811Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 92%
+2024-04-17T23:11:28.814Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 93%
+2024-04-17T23:11:28.821Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 94%
+2024-04-17T23:11:28.823Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 95%
+2024-04-17T23:11:28.829Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 96%
+2024-04-17T23:11:28.841Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 97%
+2024-04-17T23:11:28.842Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 98%
+2024-04-17T23:11:28.853Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 99%
+2024-04-17T23:11:28.854Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip: 100%
+2024-04-17T23:11:28.855Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2024-04-17T23:11:28.855Z [Modules] Installing updates...
+2024-04-17T23:11:28.855Z [Modules] Installing discord_desktop_core@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_desktop_core-1.zip
+2024-04-17T23:11:28.946Z [Modules] Installing discord_erlpack@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_erlpack-1.zip
+2024-04-17T23:11:29.005Z [Modules] Installing discord_spellcheck@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_spellcheck-1.zip
+2024-04-17T23:11:29.759Z [Modules] Installing discord_utils@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_utils-1.zip
+2024-04-17T23:11:29.878Z [Modules] Installing discord_voice@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_voice-1.zip
+2024-04-17T23:11:30.487Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2024-04-17T23:11:30.487Z [Modules] Checking for host updates.
+2024-04-17T23:11:30.593Z [Modules] Host is up to date.
+2024-04-17T23:11:30.593Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-17T23:11:30.597Z [Modules] No module updates available.
+2024-04-17T23:11:32.002Z [Modules] Starting to install discord_krisp...
+2024-04-17T23:11:32.002Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-04-17T23:11:32.003Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip
+2024-04-17T23:11:32.009Z [Modules] Starting to install discord_game_utils...
+2024-04-17T23:11:32.131Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 1%
+2024-04-17T23:11:32.134Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 2%
+2024-04-17T23:11:32.181Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 3%
+2024-04-17T23:11:32.182Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 4%
+2024-04-17T23:11:32.182Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 5%
+2024-04-17T23:11:32.184Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 6%
+2024-04-17T23:11:32.189Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 7%
+2024-04-17T23:11:32.191Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 8%
+2024-04-17T23:11:32.213Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 9%
+2024-04-17T23:11:32.214Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 10%
+2024-04-17T23:11:32.215Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 11%
+2024-04-17T23:11:32.215Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 12%
+2024-04-17T23:11:32.226Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 13%
+2024-04-17T23:11:32.226Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 14%
+2024-04-17T23:11:32.231Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 15%
+2024-04-17T23:11:32.233Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 16%
+2024-04-17T23:11:32.250Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 17%
+2024-04-17T23:11:32.251Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 18%
+2024-04-17T23:11:32.261Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 19%
+2024-04-17T23:11:32.262Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 20%
+2024-04-17T23:11:32.286Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 21%
+2024-04-17T23:11:32.287Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 22%
+2024-04-17T23:11:32.297Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 23%
+2024-04-17T23:11:32.298Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 24%
+2024-04-17T23:11:32.299Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 25%
+2024-04-17T23:11:32.300Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 26%
+2024-04-17T23:11:32.300Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 27%
+2024-04-17T23:11:32.301Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 28%
+2024-04-17T23:11:32.301Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 29%
+2024-04-17T23:11:32.311Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 30%
+2024-04-17T23:11:32.311Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 31%
+2024-04-17T23:11:32.315Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 32%
+2024-04-17T23:11:32.318Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 33%
+2024-04-17T23:11:32.323Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 34%
+2024-04-17T23:11:32.330Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 35%
+2024-04-17T23:11:32.336Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 36%
+2024-04-17T23:11:32.341Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 37%
+2024-04-17T23:11:32.351Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 38%
+2024-04-17T23:11:32.352Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 39%
+2024-04-17T23:11:32.358Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 40%
+2024-04-17T23:11:32.365Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 41%
+2024-04-17T23:11:32.389Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 42%
+2024-04-17T23:11:32.389Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 43%
+2024-04-17T23:11:32.390Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 44%
+2024-04-17T23:11:32.417Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 45%
+2024-04-17T23:11:32.418Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 46%
+2024-04-17T23:11:32.419Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 47%
+2024-04-17T23:11:32.420Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 48%
+2024-04-17T23:11:32.423Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 49%
+2024-04-17T23:11:32.425Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 50%
+2024-04-17T23:11:32.479Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 51%
+2024-04-17T23:11:32.484Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 52%
+2024-04-17T23:11:32.485Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 53%
+2024-04-17T23:11:32.485Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 54%
+2024-04-17T23:11:32.497Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 55%
+2024-04-17T23:11:32.498Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 56%
+2024-04-17T23:11:32.499Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 57%
+2024-04-17T23:11:32.499Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 58%
+2024-04-17T23:11:32.500Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 59%
+2024-04-17T23:11:32.500Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 60%
+2024-04-17T23:11:32.501Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 61%
+2024-04-17T23:11:32.506Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 62%
+2024-04-17T23:11:32.516Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 63%
+2024-04-17T23:11:32.517Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 64%
+2024-04-17T23:11:32.518Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 65%
+2024-04-17T23:11:32.522Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 66%
+2024-04-17T23:11:32.524Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 67%
+2024-04-17T23:11:32.535Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 68%
+2024-04-17T23:11:32.539Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 69%
+2024-04-17T23:11:32.545Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 70%
+2024-04-17T23:11:32.549Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 71%
+2024-04-17T23:11:32.561Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 72%
+2024-04-17T23:11:32.573Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 73%
+2024-04-17T23:11:32.574Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 74%
+2024-04-17T23:11:32.578Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 75%
+2024-04-17T23:11:32.585Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 76%
+2024-04-17T23:11:32.589Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 77%
+2024-04-17T23:11:32.598Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 78%
+2024-04-17T23:11:32.600Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 79%
+2024-04-17T23:11:32.609Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 80%
+2024-04-17T23:11:32.611Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 81%
+2024-04-17T23:11:32.617Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 82%
+2024-04-17T23:11:32.622Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 83%
+2024-04-17T23:11:32.627Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 84%
+2024-04-17T23:11:32.633Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 85%
+2024-04-17T23:11:32.638Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 86%
+2024-04-17T23:11:32.644Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 87%
+2024-04-17T23:11:32.652Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 88%
+2024-04-17T23:11:32.658Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 89%
+2024-04-17T23:11:32.660Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 90%
+2024-04-17T23:11:32.666Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 91%
+2024-04-17T23:11:32.673Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 92%
+2024-04-17T23:11:32.676Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 93%
+2024-04-17T23:11:32.682Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 94%
+2024-04-17T23:11:32.688Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 95%
+2024-04-17T23:11:32.693Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 96%
+2024-04-17T23:11:32.699Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 97%
+2024-04-17T23:11:32.706Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 98%
+2024-04-17T23:11:32.730Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 99%
+2024-04-17T23:11:32.731Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip: 100%
+2024-04-17T23:11:32.732Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-04-17T23:11:32.732Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip
+2024-04-17T23:11:32.732Z [Modules] Installing discord_krisp@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_krisp-1.zip
+2024-04-17T23:11:32.866Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 2%
+2024-04-17T23:11:32.866Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 3%
+2024-04-17T23:11:32.866Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 5%
+2024-04-17T23:11:32.867Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 6%
+2024-04-17T23:11:32.868Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 9%
+2024-04-17T23:11:32.869Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 10%
+2024-04-17T23:11:32.869Z [Modules] Checking for host updates.
+2024-04-17T23:11:32.871Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 12%
+2024-04-17T23:11:32.872Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 15%
+2024-04-17T23:11:32.873Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 16%
+2024-04-17T23:11:32.874Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 19%
+2024-04-17T23:11:32.876Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 22%
+2024-04-17T23:11:32.879Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 24%
+2024-04-17T23:11:32.881Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 26%
+2024-04-17T23:11:32.883Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 29%
+2024-04-17T23:11:32.883Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 32%
+2024-04-17T23:11:32.883Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 34%
+2024-04-17T23:11:32.886Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 35%
+2024-04-17T23:11:32.887Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 38%
+2024-04-17T23:11:32.887Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 40%
+2024-04-17T23:11:32.890Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 41%
+2024-04-17T23:11:32.892Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 44%
+2024-04-17T23:11:32.893Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 45%
+2024-04-17T23:11:32.895Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 47%
+2024-04-17T23:11:32.895Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 49%
+2024-04-17T23:11:32.897Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 51%
+2024-04-17T23:11:32.897Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 52%
+2024-04-17T23:11:32.901Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 55%
+2024-04-17T23:11:32.902Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 58%
+2024-04-17T23:11:32.903Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 61%
+2024-04-17T23:11:32.905Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 64%
+2024-04-17T23:11:32.905Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 65%
+2024-04-17T23:11:32.907Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 68%
+2024-04-17T23:11:32.908Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 69%
+2024-04-17T23:11:32.909Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 71%
+2024-04-17T23:11:32.909Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 74%
+2024-04-17T23:11:32.911Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 76%
+2024-04-17T23:11:32.911Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 78%
+2024-04-17T23:11:32.914Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 79%
+2024-04-17T23:11:32.915Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 82%
+2024-04-17T23:11:32.916Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 85%
+2024-04-17T23:11:32.917Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 87%
+2024-04-17T23:11:32.918Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 88%
+2024-04-17T23:11:32.919Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 91%
+2024-04-17T23:11:32.920Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 92%
+2024-04-17T23:11:32.921Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 94%
+2024-04-17T23:11:32.922Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 96%
+2024-04-17T23:11:32.923Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 98%
+2024-04-17T23:11:32.924Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip: 100%
+2024-04-17T23:11:32.925Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2024-04-17T23:11:32.959Z [Modules] Host is up to date.
+2024-04-17T23:11:32.959Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-17T23:11:32.962Z [Modules] No module updates available.
+2024-04-17T23:11:32.978Z [Modules] Starting to install discord_rpc...
+2024-04-17T23:11:32.978Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-04-17T23:11:32.978Z [Modules] Streaming discord_rpc@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_rpc-1.zip
+2024-04-17T23:11:33.133Z [Modules] Streaming discord_rpc@1 to /home/drako/.config/discord/0.0.50/modules/pending/discord_rpc-1.zip: 100%
+2024-04-17T23:11:33.134Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-04-17T23:11:33.220Z [Modules] Installing discord_game_utils@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_game_utils-1.zip
+2024-04-17T23:11:33.285Z [Modules] Installing discord_rpc@1 from /home/drako/.config/discord/0.0.50/modules/pending/discord_rpc-1.zip
+2024-04-17T23:11:33.303Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2024-04-18T00:11:32.871Z [Modules] Checking for host updates.
+2024-04-18T00:11:33.135Z [Modules] Host is up to date.
+2024-04-18T00:11:33.135Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-18T00:11:33.161Z [Modules] No module updates available.
+2024-04-27T00:32:06.222Z [Modules] Modules initializing
+2024-04-27T00:32:06.222Z [Modules] Distribution: remote
+2024-04-27T00:32:06.222Z [Modules] Host updates: enabled
+2024-04-27T00:32:06.222Z [Modules] Module updates: enabled
+2024-04-27T00:32:06.222Z [Modules] Module install path: /home/drako/.config/discord/0.0.50/modules
+2024-04-27T00:32:06.222Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.50/modules/installed.json
+2024-04-27T00:32:06.222Z [Modules] Module download path: /home/drako/.config/discord/0.0.50/modules/pending
+2024-04-27T00:32:06.447Z [Modules] No updates to install
+2024-04-27T00:32:06.447Z [Modules] Checking for host updates.
+2024-04-27T00:32:06.824Z [Modules] Host update is available. Manual update required!
+2024-04-27T00:33:28.475Z [Modules] Modules initializing
+2024-04-27T00:33:28.475Z [Modules] Distribution: remote
+2024-04-27T00:33:28.475Z [Modules] Host updates: enabled
+2024-04-27T00:33:28.476Z [Modules] Module updates: enabled
+2024-04-27T00:33:28.476Z [Modules] Module install path: /home/drako/.config/discord/0.0.51/modules
+2024-04-27T00:33:28.476Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.51/modules/installed.json
+2024-04-27T00:33:28.476Z [Modules] Module download path: /home/drako/.config/discord/0.0.51/modules/pending
+2024-04-27T00:33:28.693Z [Modules] Bootstrapping...
+2024-04-27T00:33:28.694Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-04-27T00:33:28.695Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-04-27T00:33:28.696Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-04-27T00:33:28.697Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-04-27T00:33:28.697Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-04-27T00:33:28.698Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-04-27T00:33:28.747Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-04-27T00:33:28.749Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-04-27T00:33:28.750Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-04-27T00:33:28.751Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-04-27T00:33:28.752Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-04-27T00:33:28.753Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-04-27T00:33:28.753Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-04-27T00:33:28.753Z [Modules] Checking for host updates.
+2024-04-27T00:33:34.159Z [Modules] Host is up to date.
+2024-04-27T00:33:34.159Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T00:33:34.188Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-04-27T00:33:34.189Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-04-27T00:33:34.189Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip
+2024-04-27T00:33:40.815Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 1%
+2024-04-27T00:33:40.916Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 2%
+2024-04-27T00:33:41.018Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 4%
+2024-04-27T00:33:41.121Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 6%
+2024-04-27T00:33:41.427Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 9%
+2024-04-27T00:33:41.429Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 18%
+2024-04-27T00:33:41.632Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 19%
+2024-04-27T00:33:41.656Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 21%
+2024-04-27T00:33:41.660Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 22%
+2024-04-27T00:33:41.785Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 23%
+2024-04-27T00:33:41.805Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 26%
+2024-04-27T00:33:41.806Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 28%
+2024-04-27T00:33:41.810Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 31%
+2024-04-27T00:33:41.847Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 32%
+2024-04-27T00:33:41.861Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 33%
+2024-04-27T00:33:41.876Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 34%
+2024-04-27T00:33:41.982Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 36%
+2024-04-27T00:33:42.033Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 37%
+2024-04-27T00:33:42.127Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 39%
+2024-04-27T00:33:42.128Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 42%
+2024-04-27T00:33:42.201Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 45%
+2024-04-27T00:33:42.262Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 48%
+2024-04-27T00:33:42.263Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 49%
+2024-04-27T00:33:42.277Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 50%
+2024-04-27T00:33:42.294Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 51%
+2024-04-27T00:33:42.327Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 52%
+2024-04-27T00:33:42.512Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 55%
+2024-04-27T00:33:42.513Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 57%
+2024-04-27T00:33:42.534Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 60%
+2024-04-27T00:33:42.534Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 61%
+2024-04-27T00:33:42.637Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 64%
+2024-04-27T00:33:42.707Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 65%
+2024-04-27T00:33:42.717Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 68%
+2024-04-27T00:33:42.726Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 69%
+2024-04-27T00:33:42.747Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 70%
+2024-04-27T00:33:42.847Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 73%
+2024-04-27T00:33:42.917Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 75%
+2024-04-27T00:33:42.987Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 78%
+2024-04-27T00:33:42.988Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 80%
+2024-04-27T00:33:42.989Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 81%
+2024-04-27T00:33:43.002Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 82%
+2024-04-27T00:33:43.030Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 83%
+2024-04-27T00:33:43.042Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 84%
+2024-04-27T00:33:43.053Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 85%
+2024-04-27T00:33:43.141Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 88%
+2024-04-27T00:33:43.141Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 89%
+2024-04-27T00:33:43.146Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 90%
+2024-04-27T00:33:43.161Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 91%
+2024-04-27T00:33:43.187Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 92%
+2024-04-27T00:33:43.201Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 93%
+2024-04-27T00:33:43.212Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 94%
+2024-04-27T00:33:43.237Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 95%
+2024-04-27T00:33:43.250Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 96%
+2024-04-27T00:33:43.264Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 97%
+2024-04-27T00:33:43.291Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 98%
+2024-04-27T00:33:43.303Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 99%
+2024-04-27T00:33:43.315Z [Modules] Streaming discord_desktop_core@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip: 100%
+2024-04-27T00:33:43.317Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-04-27T00:33:43.317Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip
+2024-04-27T00:33:43.524Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 1%
+2024-04-27T00:33:43.540Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 2%
+2024-04-27T00:33:43.552Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 3%
+2024-04-27T00:33:43.643Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 6%
+2024-04-27T00:33:43.644Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 10%
+2024-04-27T00:33:43.658Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 11%
+2024-04-27T00:33:43.686Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 12%
+2024-04-27T00:33:43.697Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 13%
+2024-04-27T00:33:43.707Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 14%
+2024-04-27T00:33:43.718Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 15%
+2024-04-27T00:33:43.729Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 16%
+2024-04-27T00:33:43.740Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 17%
+2024-04-27T00:33:43.761Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 18%
+2024-04-27T00:33:43.772Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 19%
+2024-04-27T00:33:43.783Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 20%
+2024-04-27T00:33:43.795Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 21%
+2024-04-27T00:33:43.805Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 22%
+2024-04-27T00:33:43.816Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 23%
+2024-04-27T00:33:43.838Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 24%
+2024-04-27T00:33:43.849Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 25%
+2024-04-27T00:33:43.942Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 26%
+2024-04-27T00:33:43.956Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 27%
+2024-04-27T00:33:43.958Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 30%
+2024-04-27T00:33:43.960Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 33%
+2024-04-27T00:33:43.965Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 34%
+2024-04-27T00:33:43.987Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 35%
+2024-04-27T00:33:43.997Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 36%
+2024-04-27T00:33:44.008Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 37%
+2024-04-27T00:33:44.019Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 38%
+2024-04-27T00:33:44.031Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 39%
+2024-04-27T00:33:44.042Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 40%
+2024-04-27T00:33:44.061Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 41%
+2024-04-27T00:33:44.068Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 42%
+2024-04-27T00:33:44.161Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 46%
+2024-04-27T00:33:44.163Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 50%
+2024-04-27T00:33:44.168Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 51%
+2024-04-27T00:33:44.177Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 52%
+2024-04-27T00:33:44.195Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 53%
+2024-04-27T00:33:44.205Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 54%
+2024-04-27T00:33:44.217Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 55%
+2024-04-27T00:33:44.225Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 56%
+2024-04-27T00:33:44.236Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 57%
+2024-04-27T00:33:44.244Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 58%
+2024-04-27T00:33:44.269Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 59%
+2024-04-27T00:33:44.271Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 60%
+2024-04-27T00:33:44.282Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 61%
+2024-04-27T00:33:44.290Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 62%
+2024-04-27T00:33:44.299Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 63%
+2024-04-27T00:33:44.317Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 64%
+2024-04-27T00:33:44.328Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 65%
+2024-04-27T00:33:44.336Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 66%
+2024-04-27T00:33:44.346Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 67%
+2024-04-27T00:33:44.354Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 68%
+2024-04-27T00:33:44.364Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 69%
+2024-04-27T00:33:44.381Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 70%
+2024-04-27T00:33:44.478Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 74%
+2024-04-27T00:33:44.479Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 79%
+2024-04-27T00:33:44.484Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 80%
+2024-04-27T00:33:44.493Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 81%
+2024-04-27T00:33:44.510Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 82%
+2024-04-27T00:33:44.520Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 83%
+2024-04-27T00:33:44.530Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 84%
+2024-04-27T00:33:44.537Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 85%
+2024-04-27T00:33:44.544Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 86%
+2024-04-27T00:33:44.552Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 87%
+2024-04-27T00:33:44.647Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 89%
+2024-04-27T00:33:44.663Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 90%
+2024-04-27T00:33:44.673Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 92%
+2024-04-27T00:33:44.678Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 95%
+2024-04-27T00:33:44.679Z [Modules] Streaming discord_erlpack@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip: 100%
+2024-04-27T00:33:44.680Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-04-27T00:33:44.680Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip
+2024-04-27T00:33:44.952Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 1%
+2024-04-27T00:33:45.010Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 2%
+2024-04-27T00:33:45.045Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 3%
+2024-04-27T00:33:45.171Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 4%
+2024-04-27T00:33:45.177Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 5%
+2024-04-27T00:33:45.194Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 6%
+2024-04-27T00:33:45.236Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 7%
+2024-04-27T00:33:45.271Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 8%
+2024-04-27T00:33:45.307Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 9%
+2024-04-27T00:33:45.413Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 10%
+2024-04-27T00:33:45.453Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 11%
+2024-04-27T00:33:45.480Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 12%
+2024-04-27T00:33:45.493Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 13%
+2024-04-27T00:33:45.493Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 14%
+2024-04-27T00:33:45.507Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 15%
+2024-04-27T00:33:45.538Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 16%
+2024-04-27T00:33:45.574Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 17%
+2024-04-27T00:33:45.607Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 18%
+2024-04-27T00:33:45.689Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 19%
+2024-04-27T00:33:45.731Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 20%
+2024-04-27T00:33:45.732Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 21%
+2024-04-27T00:33:45.811Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 22%
+2024-04-27T00:33:45.812Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 23%
+2024-04-27T00:33:45.963Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 24%
+2024-04-27T00:33:45.964Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 26%
+2024-04-27T00:33:45.965Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 27%
+2024-04-27T00:33:45.993Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 28%
+2024-04-27T00:33:45.994Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 30%
+2024-04-27T00:33:46.023Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 31%
+2024-04-27T00:33:46.118Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 32%
+2024-04-27T00:33:46.171Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 33%
+2024-04-27T00:33:46.200Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 34%
+2024-04-27T00:33:46.236Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 35%
+2024-04-27T00:33:46.237Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 37%
+2024-04-27T00:33:46.250Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 38%
+2024-04-27T00:33:46.275Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 39%
+2024-04-27T00:33:46.299Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 40%
+2024-04-27T00:33:46.322Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 41%
+2024-04-27T00:33:46.354Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 42%
+2024-04-27T00:33:46.380Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 43%
+2024-04-27T00:33:46.410Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 44%
+2024-04-27T00:33:46.493Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 45%
+2024-04-27T00:33:46.494Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 47%
+2024-04-27T00:33:46.507Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 48%
+2024-04-27T00:33:46.534Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 49%
+2024-04-27T00:33:46.627Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 50%
+2024-04-27T00:33:46.628Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 52%
+2024-04-27T00:33:46.710Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 53%
+2024-04-27T00:33:46.711Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 55%
+2024-04-27T00:33:46.712Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 56%
+2024-04-27T00:33:46.771Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 57%
+2024-04-27T00:33:46.788Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 58%
+2024-04-27T00:33:46.966Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 59%
+2024-04-27T00:33:46.966Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 60%
+2024-04-27T00:33:46.967Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 61%
+2024-04-27T00:33:47.046Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 62%
+2024-04-27T00:33:47.047Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 64%
+2024-04-27T00:33:47.053Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 65%
+2024-04-27T00:33:47.054Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 66%
+2024-04-27T00:33:47.054Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 68%
+2024-04-27T00:33:47.065Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 69%
+2024-04-27T00:33:47.085Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 70%
+2024-04-27T00:33:47.105Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 71%
+2024-04-27T00:33:47.205Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 72%
+2024-04-27T00:33:47.221Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 73%
+2024-04-27T00:33:47.221Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 74%
+2024-04-27T00:33:47.275Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 75%
+2024-04-27T00:33:47.276Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 77%
+2024-04-27T00:33:47.277Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 78%
+2024-04-27T00:33:47.280Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 79%
+2024-04-27T00:33:47.297Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 80%
+2024-04-27T00:33:47.397Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 81%
+2024-04-27T00:33:47.398Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 82%
+2024-04-27T00:33:47.398Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 83%
+2024-04-27T00:33:47.444Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 84%
+2024-04-27T00:33:47.457Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 85%
+2024-04-27T00:33:47.493Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 86%
+2024-04-27T00:33:47.495Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 88%
+2024-04-27T00:33:47.495Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 90%
+2024-04-27T00:33:47.587Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 91%
+2024-04-27T00:33:47.588Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 93%
+2024-04-27T00:33:47.638Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 94%
+2024-04-27T00:33:47.667Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 95%
+2024-04-27T00:33:47.679Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 96%
+2024-04-27T00:33:47.693Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 97%
+2024-04-27T00:33:47.712Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 98%
+2024-04-27T00:33:47.728Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 99%
+2024-04-27T00:33:47.729Z [Modules] Streaming discord_spellcheck@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip: 100%
+2024-04-27T00:33:47.730Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-04-27T00:33:47.730Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip
+2024-04-27T00:33:47.935Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 1%
+2024-04-27T00:33:47.940Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 2%
+2024-04-27T00:33:47.945Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 3%
+2024-04-27T00:33:47.952Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 4%
+2024-04-27T00:33:47.958Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 5%
+2024-04-27T00:33:47.965Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 6%
+2024-04-27T00:33:48.052Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 8%
+2024-04-27T00:33:48.053Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 10%
+2024-04-27T00:33:48.076Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 13%
+2024-04-27T00:33:48.077Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 15%
+2024-04-27T00:33:48.101Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 16%
+2024-04-27T00:33:48.102Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 18%
+2024-04-27T00:33:48.103Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 25%
+2024-04-27T00:33:48.104Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 28%
+2024-04-27T00:33:48.169Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 30%
+2024-04-27T00:33:48.170Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 33%
+2024-04-27T00:33:48.171Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 39%
+2024-04-27T00:33:48.172Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 42%
+2024-04-27T00:33:48.239Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 44%
+2024-04-27T00:33:48.240Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 51%
+2024-04-27T00:33:48.241Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 54%
+2024-04-27T00:33:48.298Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 56%
+2024-04-27T00:33:48.299Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 63%
+2024-04-27T00:33:48.300Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 66%
+2024-04-27T00:33:48.300Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 67%
+2024-04-27T00:33:48.359Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 69%
+2024-04-27T00:33:48.359Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 71%
+2024-04-27T00:33:48.383Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 74%
+2024-04-27T00:33:48.383Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 80%
+2024-04-27T00:33:48.384Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 84%
+2024-04-27T00:33:48.384Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 89%
+2024-04-27T00:33:48.386Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 90%
+2024-04-27T00:33:48.392Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 91%
+2024-04-27T00:33:48.477Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 93%
+2024-04-27T00:33:48.478Z [Modules] Streaming discord_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip: 100%
+2024-04-27T00:33:48.479Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-04-27T00:33:48.479Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip
+2024-04-27T00:33:48.751Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 1%
+2024-04-27T00:33:48.795Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 2%
+2024-04-27T00:33:48.796Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 3%
+2024-04-27T00:33:48.796Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 4%
+2024-04-27T00:33:48.818Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 5%
+2024-04-27T00:33:48.850Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 6%
+2024-04-27T00:33:49.050Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 7%
+2024-04-27T00:33:49.051Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 8%
+2024-04-27T00:33:49.052Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 9%
+2024-04-27T00:33:49.059Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 10%
+2024-04-27T00:33:49.060Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 11%
+2024-04-27T00:33:49.126Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 12%
+2024-04-27T00:33:49.157Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 13%
+2024-04-27T00:33:49.174Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 14%
+2024-04-27T00:33:49.176Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 15%
+2024-04-27T00:33:49.238Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 16%
+2024-04-27T00:33:49.278Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 17%
+2024-04-27T00:33:49.280Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 18%
+2024-04-27T00:33:49.311Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 19%
+2024-04-27T00:33:49.369Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 20%
+2024-04-27T00:33:49.387Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 21%
+2024-04-27T00:33:49.405Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 22%
+2024-04-27T00:33:49.405Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 23%
+2024-04-27T00:33:49.484Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 24%
+2024-04-27T00:33:49.485Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 25%
+2024-04-27T00:33:49.486Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 26%
+2024-04-27T00:33:49.487Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 27%
+2024-04-27T00:33:49.585Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 28%
+2024-04-27T00:33:49.607Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 29%
+2024-04-27T00:33:49.608Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 30%
+2024-04-27T00:33:49.659Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 31%
+2024-04-27T00:33:49.696Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 32%
+2024-04-27T00:33:49.713Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 33%
+2024-04-27T00:33:49.714Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 34%
+2024-04-27T00:33:49.771Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 35%
+2024-04-27T00:33:49.772Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 36%
+2024-04-27T00:33:49.836Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 37%
+2024-04-27T00:33:49.866Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 38%
+2024-04-27T00:33:49.867Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 39%
+2024-04-27T00:33:49.908Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 40%
+2024-04-27T00:33:49.909Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 41%
+2024-04-27T00:33:49.956Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 42%
+2024-04-27T00:33:49.957Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 43%
+2024-04-27T00:33:50.002Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 44%
+2024-04-27T00:33:50.004Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 45%
+2024-04-27T00:33:50.005Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 46%
+2024-04-27T00:33:50.066Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 47%
+2024-04-27T00:33:50.089Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 48%
+2024-04-27T00:33:50.090Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 49%
+2024-04-27T00:33:50.090Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 50%
+2024-04-27T00:33:50.166Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 51%
+2024-04-27T00:33:50.167Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 52%
+2024-04-27T00:33:50.167Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 53%
+2024-04-27T00:33:50.168Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 54%
+2024-04-27T00:33:50.242Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 55%
+2024-04-27T00:33:50.253Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 56%
+2024-04-27T00:33:50.367Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 57%
+2024-04-27T00:33:50.367Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 58%
+2024-04-27T00:33:50.368Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 59%
+2024-04-27T00:33:50.369Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 60%
+2024-04-27T00:33:50.370Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 61%
+2024-04-27T00:33:50.371Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 62%
+2024-04-27T00:33:50.371Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 63%
+2024-04-27T00:33:50.372Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 64%
+2024-04-27T00:33:50.440Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 65%
+2024-04-27T00:33:50.461Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 66%
+2024-04-27T00:33:50.560Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 67%
+2024-04-27T00:33:50.561Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 68%
+2024-04-27T00:33:50.562Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 69%
+2024-04-27T00:33:50.618Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 70%
+2024-04-27T00:33:50.642Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 71%
+2024-04-27T00:33:50.642Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 72%
+2024-04-27T00:33:50.686Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 73%
+2024-04-27T00:33:50.687Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 74%
+2024-04-27T00:33:50.687Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 75%
+2024-04-27T00:33:50.688Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 76%
+2024-04-27T00:33:50.700Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 77%
+2024-04-27T00:33:50.793Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 78%
+2024-04-27T00:33:50.794Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 79%
+2024-04-27T00:33:50.794Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 80%
+2024-04-27T00:33:50.795Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 81%
+2024-04-27T00:33:50.796Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 82%
+2024-04-27T00:33:50.815Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 83%
+2024-04-27T00:33:50.829Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 84%
+2024-04-27T00:33:50.852Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 85%
+2024-04-27T00:33:50.953Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 86%
+2024-04-27T00:33:50.962Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 87%
+2024-04-27T00:33:50.963Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 88%
+2024-04-27T00:33:50.964Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 89%
+2024-04-27T00:33:50.965Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 90%
+2024-04-27T00:33:50.965Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 91%
+2024-04-27T00:33:51.071Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 92%
+2024-04-27T00:33:51.075Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 93%
+2024-04-27T00:33:51.076Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 94%
+2024-04-27T00:33:51.077Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 95%
+2024-04-27T00:33:51.078Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 96%
+2024-04-27T00:33:51.078Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 97%
+2024-04-27T00:33:51.088Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 98%
+2024-04-27T00:33:51.107Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 99%
+2024-04-27T00:33:51.139Z [Modules] Streaming discord_voice@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip: 100%
+2024-04-27T00:33:51.141Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-04-27T00:33:51.142Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip
+2024-04-27T00:33:51.326Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 5%
+2024-04-27T00:33:51.327Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 6%
+2024-04-27T00:33:51.331Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 11%
+2024-04-27T00:33:51.337Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 15%
+2024-04-27T00:33:51.340Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 20%
+2024-04-27T00:33:51.342Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 22%
+2024-04-27T00:33:51.345Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 25%
+2024-04-27T00:33:51.349Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 29%
+2024-04-27T00:33:51.352Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 33%
+2024-04-27T00:33:51.358Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 34%
+2024-04-27T00:33:51.438Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 39%
+2024-04-27T00:33:51.439Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 45%
+2024-04-27T00:33:51.440Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 60%
+2024-04-27T00:33:51.441Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 65%
+2024-04-27T00:33:51.441Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 75%
+2024-04-27T00:33:51.442Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 90%
+2024-04-27T00:33:51.442Z [Modules] Streaming discord_zstd@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip: 100%
+2024-04-27T00:33:51.443Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-04-27T00:33:51.443Z [Modules] Installing updates...
+2024-04-27T00:33:51.444Z [Modules] Installing discord_desktop_core@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_desktop_core-1.zip
+2024-04-27T00:33:51.529Z [Modules] Installing discord_erlpack@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_erlpack-1.zip
+2024-04-27T00:33:51.577Z [Modules] Installing discord_spellcheck@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_spellcheck-1.zip
+2024-04-27T00:33:52.299Z [Modules] Installing discord_utils@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_utils-1.zip
+2024-04-27T00:33:52.421Z [Modules] Installing discord_voice@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_voice-1.zip
+2024-04-27T00:33:52.962Z [Modules] Installing discord_zstd@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_zstd-1.zip
+2024-04-27T00:33:52.997Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-04-27T00:33:52.997Z [Modules] Checking for host updates.
+2024-04-27T00:33:53.187Z [Modules] Host is up to date.
+2024-04-27T00:33:53.187Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T00:33:53.190Z [Modules] No module updates available.
+2024-04-27T00:33:54.457Z [Modules] Starting to install discord_krisp...
+2024-04-27T00:33:54.457Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-04-27T00:33:54.457Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip
+2024-04-27T00:33:54.464Z [Modules] Starting to install discord_game_utils...
+2024-04-27T00:33:54.688Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 1%
+2024-04-27T00:33:54.704Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 2%
+2024-04-27T00:33:54.721Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 3%
+2024-04-27T00:33:54.737Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 4%
+2024-04-27T00:33:54.756Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 5%
+2024-04-27T00:33:54.771Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 6%
+2024-04-27T00:33:54.873Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 7%
+2024-04-27T00:33:54.881Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 8%
+2024-04-27T00:33:54.882Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 9%
+2024-04-27T00:33:54.883Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 10%
+2024-04-27T00:33:54.884Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 11%
+2024-04-27T00:33:54.885Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 12%
+2024-04-27T00:33:54.966Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 13%
+2024-04-27T00:33:54.967Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 14%
+2024-04-27T00:33:54.968Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 15%
+2024-04-27T00:33:54.968Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 16%
+2024-04-27T00:33:55.024Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 17%
+2024-04-27T00:33:55.025Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 18%
+2024-04-27T00:33:55.026Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 19%
+2024-04-27T00:33:55.026Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 20%
+2024-04-27T00:33:55.112Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 21%
+2024-04-27T00:33:55.112Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 22%
+2024-04-27T00:33:55.130Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 23%
+2024-04-27T00:33:55.130Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 24%
+2024-04-27T00:33:55.131Z [Modules] Checking for host updates.
+2024-04-27T00:33:55.157Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 25%
+2024-04-27T00:33:55.158Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 26%
+2024-04-27T00:33:55.159Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 27%
+2024-04-27T00:33:55.160Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 28%
+2024-04-27T00:33:55.160Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 29%
+2024-04-27T00:33:55.177Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 30%
+2024-04-27T00:33:55.192Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 31%
+2024-04-27T00:33:55.207Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 32%
+2024-04-27T00:33:55.230Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 33%
+2024-04-27T00:33:55.246Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 34%
+2024-04-27T00:33:55.251Z [Modules] Host is up to date.
+2024-04-27T00:33:55.252Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T00:33:55.255Z [Modules] No module updates available.
+2024-04-27T00:33:55.273Z [Modules] Starting to install discord_rpc...
+2024-04-27T00:33:55.340Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 35%
+2024-04-27T00:33:55.343Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 36%
+2024-04-27T00:33:55.367Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 37%
+2024-04-27T00:33:55.379Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 38%
+2024-04-27T00:33:55.380Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 39%
+2024-04-27T00:33:55.382Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 40%
+2024-04-27T00:33:55.382Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 41%
+2024-04-27T00:33:55.383Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 42%
+2024-04-27T00:33:55.384Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 43%
+2024-04-27T00:33:55.392Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 44%
+2024-04-27T00:33:55.407Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 45%
+2024-04-27T00:33:55.499Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 46%
+2024-04-27T00:33:55.547Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 47%
+2024-04-27T00:33:55.548Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 48%
+2024-04-27T00:33:55.549Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 49%
+2024-04-27T00:33:55.550Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 50%
+2024-04-27T00:33:55.551Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 51%
+2024-04-27T00:33:55.552Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 52%
+2024-04-27T00:33:55.558Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 53%
+2024-04-27T00:33:55.571Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 54%
+2024-04-27T00:33:55.661Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 55%
+2024-04-27T00:33:55.662Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 56%
+2024-04-27T00:33:55.663Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 57%
+2024-04-27T00:33:55.664Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 58%
+2024-04-27T00:33:55.723Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 59%
+2024-04-27T00:33:55.724Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 60%
+2024-04-27T00:33:55.724Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 61%
+2024-04-27T00:33:55.779Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 62%
+2024-04-27T00:33:55.780Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 63%
+2024-04-27T00:33:55.780Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 64%
+2024-04-27T00:33:55.781Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 65%
+2024-04-27T00:33:55.832Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 66%
+2024-04-27T00:33:55.852Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 67%
+2024-04-27T00:33:55.853Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 68%
+2024-04-27T00:33:55.890Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 69%
+2024-04-27T00:33:55.891Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 70%
+2024-04-27T00:33:55.919Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 71%
+2024-04-27T00:33:55.950Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 72%
+2024-04-27T00:33:55.951Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 73%
+2024-04-27T00:33:55.983Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 74%
+2024-04-27T00:33:55.986Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 75%
+2024-04-27T00:33:55.990Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 76%
+2024-04-27T00:33:55.990Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 77%
+2024-04-27T00:33:56.057Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 78%
+2024-04-27T00:33:56.058Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 79%
+2024-04-27T00:33:56.059Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 80%
+2024-04-27T00:33:56.060Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 81%
+2024-04-27T00:33:56.060Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 82%
+2024-04-27T00:33:56.061Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 83%
+2024-04-27T00:33:56.074Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 84%
+2024-04-27T00:33:56.084Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 85%
+2024-04-27T00:33:56.101Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 86%
+2024-04-27T00:33:56.124Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 87%
+2024-04-27T00:33:56.134Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 88%
+2024-04-27T00:33:56.146Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 89%
+2024-04-27T00:33:56.157Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 90%
+2024-04-27T00:33:56.169Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 91%
+2024-04-27T00:33:56.335Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 92%
+2024-04-27T00:33:56.336Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 93%
+2024-04-27T00:33:56.337Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 94%
+2024-04-27T00:33:56.338Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 95%
+2024-04-27T00:33:56.339Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 96%
+2024-04-27T00:33:56.340Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 97%
+2024-04-27T00:33:56.341Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 98%
+2024-04-27T00:33:56.342Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 99%
+2024-04-27T00:33:56.342Z [Modules] Streaming discord_krisp@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip: 100%
+2024-04-27T00:33:56.343Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-04-27T00:33:56.343Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip
+2024-04-27T00:33:56.343Z [Modules] Installing discord_krisp@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_krisp-1.zip
+2024-04-27T00:33:56.523Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 2%
+2024-04-27T00:33:56.523Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 3%
+2024-04-27T00:33:56.526Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 5%
+2024-04-27T00:33:56.528Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 6%
+2024-04-27T00:33:56.617Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 9%
+2024-04-27T00:33:56.618Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 14%
+2024-04-27T00:33:56.623Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 17%
+2024-04-27T00:33:56.624Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 20%
+2024-04-27T00:33:56.624Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 25%
+2024-04-27T00:33:56.625Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 30%
+2024-04-27T00:33:56.625Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 36%
+2024-04-27T00:33:56.626Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 41%
+2024-04-27T00:33:56.627Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 43%
+2024-04-27T00:33:56.658Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 46%
+2024-04-27T00:33:56.658Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 49%
+2024-04-27T00:33:56.659Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 54%
+2024-04-27T00:33:56.659Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 60%
+2024-04-27T00:33:56.659Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 65%
+2024-04-27T00:33:56.690Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 66%
+2024-04-27T00:33:56.690Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 69%
+2024-04-27T00:33:56.691Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 72%
+2024-04-27T00:33:56.691Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 77%
+2024-04-27T00:33:56.692Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 80%
+2024-04-27T00:33:56.692Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 82%
+2024-04-27T00:33:56.693Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 90%
+2024-04-27T00:33:56.693Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 94%
+2024-04-27T00:33:56.724Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 97%
+2024-04-27T00:33:56.724Z [Modules] Streaming discord_game_utils@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip: 100%
+2024-04-27T00:33:56.727Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-04-27T00:33:56.727Z [Modules] Streaming discord_rpc@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip
+2024-04-27T00:33:56.832Z [Modules] Installing discord_game_utils@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_game_utils-1.zip
+2024-04-27T00:33:56.900Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-04-27T00:33:56.914Z [Modules] Streaming discord_rpc@1 to /home/drako/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip: 100%
+2024-04-27T00:33:56.915Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-04-27T00:33:56.915Z [Modules] Installing discord_rpc@1 from /home/drako/.config/discord/0.0.51/modules/pending/discord_rpc-1.zip
+2024-04-27T00:33:56.930Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-04-27T01:33:55.313Z [Modules] Checking for host updates.
+2024-04-27T01:33:55.559Z [Modules] Host is up to date.
+2024-04-27T01:33:55.560Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T01:33:55.584Z [Modules] No module updates available.
+2024-04-27T02:33:55.313Z [Modules] Checking for host updates.
+2024-04-27T02:34:00.518Z [Modules] Host is up to date.
+2024-04-27T02:34:00.518Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T02:34:00.612Z [Modules] No module updates available.
+2024-04-27T03:33:55.312Z [Modules] Checking for host updates.
+2024-04-27T03:33:55.562Z [Modules] Host is up to date.
+2024-04-27T03:33:55.562Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-04-27T03:33:55.583Z [Modules] No module updates available.
+2024-07-30T00:23:32.751Z [Modules] Modules initializing
+2024-07-30T00:23:32.751Z [Modules] Distribution: remote
+2024-07-30T00:23:32.751Z [Modules] Host updates: enabled
+2024-07-30T00:23:32.751Z [Modules] Module updates: enabled
+2024-07-30T00:23:32.751Z [Modules] Module install path: /home/drako/.config/discord/0.0.51/modules
+2024-07-30T00:23:32.751Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.51/modules/installed.json
+2024-07-30T00:23:32.751Z [Modules] Module download path: /home/drako/.config/discord/0.0.51/modules/pending
+2024-07-30T00:23:33.023Z [Modules] No updates to install
+2024-07-30T00:23:33.024Z [Modules] Checking for host updates.
+2024-07-30T00:23:39.780Z [Modules] Host update is available. Manual update required!
+2024-07-30T00:36:12.224Z [Modules] Modules initializing
+2024-07-30T00:36:12.224Z [Modules] Distribution: remote
+2024-07-30T00:36:12.224Z [Modules] Host updates: enabled
+2024-07-30T00:36:12.224Z [Modules] Module updates: enabled
+2024-07-30T00:36:12.225Z [Modules] Module install path: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:36:12.225Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.56/modules/installed.json
+2024-07-30T00:36:12.225Z [Modules] Module download path: /home/drako/.config/discord/0.0.56/modules/pending
+2024-07-30T00:36:12.415Z [Modules] Bootstrapping...
+2024-07-30T00:36:12.416Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-07-30T00:36:12.417Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-07-30T00:36:12.418Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-07-30T00:36:12.419Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-07-30T00:36:12.419Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-07-30T00:36:12.420Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-07-30T00:36:12.420Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-07-30T00:36:12.421Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-07-30T00:36:12.421Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-07-30T00:36:12.421Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-07-30T00:36:12.422Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-07-30T00:36:12.422Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-07-30T00:36:12.422Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-07-30T00:36:12.423Z [Modules] Checking for host updates.
+2024-07-30T00:36:18.430Z [Modules] Host update is available. Manual update required!
+2024-07-30T00:39:47.269Z [Modules] Modules initializing
+2024-07-30T00:39:47.270Z [Modules] Distribution: remote
+2024-07-30T00:39:47.270Z [Modules] Host updates: enabled
+2024-07-30T00:39:47.270Z [Modules] Module updates: enabled
+2024-07-30T00:39:47.270Z [Modules] Module install path: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:39:47.270Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.56/modules/installed.json
+2024-07-30T00:39:47.270Z [Modules] Module download path: /home/drako/.config/discord/0.0.56/modules/pending
+2024-07-30T00:39:47.470Z [Modules] No updates to install
+2024-07-30T00:39:47.471Z [Modules] Checking for host updates.
+2024-07-30T00:39:48.139Z [Modules] Host update is available. Manual update required!
+2024-07-30T00:41:41.280Z [Modules] Modules initializing
+2024-07-30T00:41:41.280Z [Modules] Distribution: remote
+2024-07-30T00:41:41.281Z [Modules] Host updates: enabled
+2024-07-30T00:41:41.281Z [Modules] Module updates: enabled
+2024-07-30T00:41:41.281Z [Modules] Module install path: /home/drako/.config/discord/0.0.56/modules
+2024-07-30T00:41:41.281Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.56/modules/installed.json
+2024-07-30T00:41:41.281Z [Modules] Module download path: /home/drako/.config/discord/0.0.56/modules/pending
+2024-07-30T00:41:41.505Z [Modules] No updates to install
+2024-07-30T00:41:41.506Z [Modules] Checking for host updates.
+2024-08-04T14:10:52.317Z [Modules] Modules initializing
+2024-08-04T14:10:52.317Z [Modules] Distribution: remote
+2024-08-04T14:10:52.317Z [Modules] Host updates: enabled
+2024-08-04T14:10:52.317Z [Modules] Module updates: enabled
+2024-08-04T14:10:52.317Z [Modules] Module install path: /home/drako/.config/discord/0.0.56/modules
+2024-08-04T14:10:52.317Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.56/modules/installed.json
+2024-08-04T14:10:52.317Z [Modules] Module download path: /home/drako/.config/discord/0.0.56/modules/pending
+2024-08-04T14:10:52.481Z [Modules] No updates to install
+2024-08-04T14:10:52.482Z [Modules] Checking for host updates.
+2024-08-04T14:10:52.987Z [Modules] Host update is available. Manual update required!
+2024-08-04T14:15:37.971Z [Modules] Modules initializing
+2024-08-04T14:15:37.972Z [Modules] Distribution: remote
+2024-08-04T14:15:37.972Z [Modules] Host updates: enabled
+2024-08-04T14:15:37.972Z [Modules] Module updates: enabled
+2024-08-04T14:15:37.972Z [Modules] Module install path: /home/drako/.config/discord/0.0.56/modules
+2024-08-04T14:15:37.972Z [Modules] Module installed file path: /home/drako/.config/discord/0.0.56/modules/installed.json
+2024-08-04T14:15:37.972Z [Modules] Module download path: /home/drako/.config/discord/0.0.56/modules/pending
+2024-08-04T14:15:38.119Z [Modules] No updates to install
+2024-08-04T14:15:38.120Z [Modules] Checking for host updates.
+2024-08-04T14:15:38.728Z [Modules] Host update is available. Manual update required!

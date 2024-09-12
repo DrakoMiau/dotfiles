@@ -1,14 +1,11 @@
-
-
 import os
 import subprocess
 from typing import List  # noqa: F401
-from libqtile import bar, layout, widget
-from libqtile import hook
+
+from libqtile import bar, hook, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
-from libqtile import widget
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -24,14 +21,23 @@ keys = [
     Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
-    Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
-    Key([mod, "shift"], "l", lazy.layout.shuffle_right(), desc="Move window to the right"),
+    Key(
+        [mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"
+    ),
+    Key(
+        [mod, "shift"],
+        "l",
+        lazy.layout.shuffle_right(),
+        desc="Move window to the right",
+    ),
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
     Key([mod, "control"], "h", lazy.layout.grow_left(), desc="Grow window to the left"),
-    Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
+    Key(
+        [mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"
+    ),
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
@@ -54,38 +60,38 @@ keys = [
         lazy.window.toggle_fullscreen(),
         desc="Toggle fullscreen on the focused window",
     ),
-    Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating on the focused window"),
+    Key(
+        [mod],
+        "t",
+        lazy.window.toggle_floating(),
+        desc="Toggle floating on the focused window",
+    ),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    
     # Terminal
-
     Key([mod], "Return", lazy.spawn("kitty")),
     Key([mod], "a", lazy.spawn("alacritty")),
-
     # Browser
-
     Key([mod], "b", lazy.spawn("firefox")),
-
     # Rofi Menu
-
     Key([mod], "m", lazy.spawn("rofi -show run")),
-
     # Window Nav
-
     Key([mod, "shift"], "m", lazy.spawn("rofi -show")),
-
     # File Manager
-
     Key([mod], "e", lazy.spawn("thunar")),
-
     # Volume
-
-    Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")),
-    Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
+    Key(
+        [],
+        "XF86AudioLowerVolume",
+        lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%"),
+    ),
+    Key(
+        [],
+        "XF86AudioRaiseVolume",
+        lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%"),
+    ),
     Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ toggle")),
-
     # Screenshot
     Key([mod], "s", lazy.spawn("scrot")),
     Key([mod, "shift"], "s", lazy.spawn("scrot -s")),
@@ -94,15 +100,16 @@ keys = [
 # Add key bindings to switch VTs in Wayland.
 # We can't check qtile.core.name in default config as it is loaded before qtile is started
 # We therefore defer the check until the key binding is run by using .when(func=...)
-for vt in range(1, 8):
-    keys.append(
-        Key(
-            ["control", "mod1"],
-            f"f{vt}",
-            lazy.core.change_vt(vt).when(func=lambda: qtile.core.name == "wayland"),
-            desc=f"Switch to VT{vt}",
-        )
-    )
+# for vt in range(1, 8):
+#   keys.append(
+#       Key(
+#           ["control", "mod1"],
+#          f"f{vt}",
+#           lazy.core.change_vt(vt).when(
+#               func=lambda: qtile.core.name == "wayland"),
+#           desc=f"Switch to VT{vt}",
+#       )
+#   )
 
 
 groups = [Group(i) for i in "123456789"]
@@ -147,7 +154,7 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-#BAR
+# BAR
 
 widget_defaults = dict(
     font="UbuntuMono Nerd Font",
@@ -158,225 +165,277 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper='~/Themes/wallpapers/minimalIceberg.jpg',
-        wallpaper_mode='stretch',
+        wallpaper="~/Themes/wallpapers/anime_skull_gruvbox.png",
+        wallpaper_mode="stretch",
         top=bar.Bar(
             [
-                widget.Sep(
-                    linewidth=0,
-                    padding=6
-                ),
+                widget.Sep(linewidth=0, padding=6),
                 widget.Image(
-                    filename="~/.config/qtile/Archlinux-icon.svg.svg",
-                    scale="False"
+                    filename="~/.config/qtile/Archlinux-icon.svg.svg", scale="False"
                 ),
-                widget.Sep(
-                    linewidth=0,
-                    padding=6
-                ),
+                widget.Sep(linewidth=0, padding=6),
                 widget.GroupBox(
                     active="#ffffff",
                     rounded=False,
-                    highlight_color="#92b7b7",
+                    highlight_color="#c9ba98",
                     highlight_method="line",
-                    borderwidth=0
+                    borderwidth=0,
                 ),
                 widget.WindowName(
                     foreground="#9c7983",
                     markup=True,
                     font="CodeNewRoman Nerd Font",
                     fontsize=15,
-                    max_chars=63
+                    max_chars=63,
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#1f1f24",
-                    foreground="#9db3b9",
+                    text="",
+                    background="#181515",
+                    foreground="#9b968d",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.TextBox(
-                    text=' ',
-                    background="#9db3b9",
-                    foreground="#191724",
-                    padding=7
+                    text=" ", background="#9b968d", foreground="#191724", padding=7
                 ),
-                widget.CurrentLayout(
-                    background="#9db3b9",
-                    foreground="#191724"
-                ),
+                widget.CurrentLayout(background="#9b968d", foreground="#191724"),
                 widget.TextBox(
-                    text='',
-                    background="#9db3b9",
-                    foreground="#80a6cd",
+                    text="",
+                    background="#9b968d",
+                    foreground="#436c80",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.CPU(
-                    background="#80a6cd",
+                    background="#436c80",
                     foreground="191724",
-                    format="󰘚 {load_percent}%"
+                    format="󰘚 {load_percent}%",
                 ),
                 widget.TextBox(
-                    text='',
-                    foreground="#284562",
-                    background="#80a6cd",
+                    text="",
+                    foreground="#67857a",
+                    background="#436c80",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.Memory(
                     format="{MemUsed: .0f}{mm}",
-                    background="#284562",
+                    background="#67857a",
                     foreground="#161525",
-                    interval=1.0
+                    interval=1.0,
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#284562",
-                    foreground="#9ccfd8",
+                    text="",
+                    background="#67857a",
+                    foreground="#ac7e30",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#9ccfd8",
+                    text="",
+                    background="#ac7e30",
                     foreground="#192724",
                     padding=7,
                 ),
                 widget.Net(
-                    format='{down}↓↑{up}',
-                    background="#9ccfd8",
+                    format="{down}↓↑{up}",
+                    background="#ac7e30",
                     foreground="#191724",
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#9ccfd8",
-                    foreground="#003139",
+                    text="",
+                    background="#ac7e30",
+                    foreground="#4b1d1d",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.TextBox(
-                    text='󰅐',
-                    background="#003139",
-                    foreground="#aeafaf",
-                    padding=7
+                    text="󰅐", background="#4b1d1d", foreground="#aeafaf", padding=7
                 ),
                 widget.Clock(
-                    background="#003139",
+                    background="#4b1d1d",
                     foreground="#aeafaf",
                     format="%H:%M - %d/%m/%Y",
-                    update_interval=60.0
+                    update_interval=60.0,
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#003139",
-                    foreground="#1f1f24",
+                    text="",
+                    background="#4b1d1d",
+                    foreground="#181515",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.Battery(
                     foreground="#aeafaf",
                     charge_char="󱊥",
                     discharge_char="󰂌",
                     empty_char="󰂎",
-                    full_char="󱊣"
+                    full_char="󱊣",
                 ),
-                widget.Systray(),
             ],
             25,
-            background="#1f1f24",
+            background="#181515",
         ),
     ),
     Screen(
+        wallpaper="~/Themes/wallpapers/anime_skull_gruvbox.png",
+        wallpaper_mode="stretch",
         top=bar.Bar(
             [
+                widget.Sep(linewidth=0, padding=6),
+                widget.Image(
+                    filename="~/.config/qtile/Archlinux-icon.svg.svg", scale="False"
+                ),
+                widget.Sep(linewidth=0, padding=6),
                 widget.GroupBox(
                     active="#ffffff",
                     rounded=False,
-                    highlight_color="#c4a7e7",
+                    highlight_color="#c9ba98",
                     highlight_method="line",
-                    borderwidth=0
+                    borderwidth=0,
                 ),
                 widget.WindowName(
-                    foreground="#eb6f92",
+                    foreground="#9c7983",
                     markup=True,
                     font="CodeNewRoman Nerd Font",
                     fontsize=15,
+                    max_chars=63,
                 ),
                 widget.TextBox(
-                    text='',
-                    foreground="#e0def4",
+                    text="",
+                    background="#181515",
+                    foreground="#9b968d",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
                 ),
                 widget.TextBox(
-                    text=' ',
-                    background="#e0def4",
-                    foreground="#191724",
-                    padding=2
+                    text=" ", background="#9b968d", foreground="#191724", padding=7
                 ),
-                widget.CheckUpdates(
-                    update_interval=18000,
-                    display_format="{updates}",
-                    colour_have_updates="#191724",
-                    background="#e0def8"
-                ),
+                widget.CurrentLayout(background="#9b968d", foreground="#191724"),
                 widget.TextBox(
-                    text='',
-                    background="#e0def8",
-                    foreground="#c4a7e7",
+                    text="",
+                    background="#9b968d",
+                    foreground="#436c80",
                     padding=0,
-                    fontsize=42
+                    fontsize=42,
+                ),
+                widget.CPU(
+                    background="#436c80",
+                    foreground="191724",
+                    format="󰘚 {load_percent}%",
                 ),
                 widget.TextBox(
-                    text='',
-                    background="#c4a7e7",
+                    text="",
+                    foreground="#67857a",
+                    background="#436c80",
+                    padding=0,
+                    fontsize=42,
+                ),
+                widget.Memory(
+                    format="{MemUsed: .0f}{mm}",
+                    background="#67857a",
+                    foreground="#161525",
+                    interval=1.0,
+                ),
+                widget.TextBox(
+                    text="",
+                    background="#67857a",
+                    foreground="#ac7e30",
+                    padding=0,
+                    fontsize=42,
+                ),
+                widget.TextBox(
+                    text="",
+                    background="#ac7e30",
+                    foreground="#192724",
+                    padding=7,
+                ),
+                widget.Net(
+                    format="{down}↓↑{up}",
+                    background="#ac7e30",
                     foreground="#191724",
-                    padding=7
+                ),
+                widget.TextBox(
+                    text="",
+                    background="#ac7e30",
+                    foreground="#4b1d1d",
+                    padding=0,
+                    fontsize=42,
+                ),
+                widget.TextBox(
+                    text="󰅐", background="#4b1d1d", foreground="#aeafaf", padding=7
                 ),
                 widget.Clock(
-                    background="#c4a7e7",
-                    foreground="#191724",
-                    format="%H:%M",
-                    update_interval=60.0
+                    background="#4b1d1d",
+                    foreground="#aeafaf",
+                    format="%H:%M - %d/%m/%Y",
+                    update_interval=60.0,
+                ),
+                widget.TextBox(
+                    text="",
+                    background="#4b1d1d",
+                    foreground="#181515",
+                    padding=0,
+                    fontsize=42,
+                ),
+                widget.Battery(
+                    foreground="#aeafaf",
+                    charge_char="󱊥",
+                    discharge_char="󰂌",
+                    empty_char="󰂎",
+                    full_char="󱊣",
                 ),
             ],
             25,
-            background="#1f1f24",
+            background="#181515",
         ),
     ),
-
 ]
 
 
 # Workspace
 
-groups = [Group(i) for i in [
-    "   ", "   ", " 󰌠  ", "   ", "   ", "   ", "   ",
-]]
+groups = [
+    Group(i)
+    for i in [
+        "   ",
+        "   ",
+        " 󰌠  ",
+        "   ",
+        "   ",
+        "   ",
+        "   ",
+    ]
+]
 
 for i, group in enumerate(groups):
     actual_key = str(i + 1)
-    keys.extend([
-        # Switch to workspace N
-        Key([mod], actual_key, lazy.group[group.name].toscreen()),
-        # Send window to workspace N
-        Key([mod, "shift"], actual_key, lazy.window.togroup(group.name))
-    ])
+    keys.extend(
+        [
+            # Switch to workspace N
+            Key([mod], actual_key, lazy.group[group.name].toscreen()),
+            # Send window to workspace N
+            Key([mod, "shift"], actual_key, lazy.window.togroup(group.name)),
+        ]
+    )
 
 
 # Window style in layouts
 
 layouts = [
-    layout.MonadTall(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=8),
+    layout.MonadTall(
+        border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=8
+    ),
     layout.Max(),
-    layout.Bsp(border_focus="#9ccfd8", border_normal="#31748f",
-               border_width=1, margin=8),
-    layout.MonadWide(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=8),
-    layout.RatioTile(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=8),
+    layout.Bsp(
+        border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=8
+    ),
+    layout.MonadWide(
+        border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=8
+    ),
+    layout.RatioTile(
+        border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=8
+    ),
     layout.Matrix(),
 ]
 
@@ -425,17 +484,26 @@ layouts = [
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Drag(
+        [mod],
+        "Button1",
+        lazy.window.set_position_floating(),
+        start=lazy.window.get_position(),
+    ),
+    Drag(
+        [mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()
+    ),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 
 # Autostart
 
+
 @hook.subscribe.startup
 def autostart():
-    home = os.path.expanduser('~/.config/qtile/autostart.sh')
+    home = os.path.expanduser("~/.config/qtile/autostart.sh")
     subprocess.Popen([home])
+
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: list
@@ -464,6 +532,17 @@ reconfigure_screens = True
 auto_minimize = True
 
 # When using the Wayland backend, this can be used to configure input devices.
+wl_input_rules = None
+
+# XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
+# string besides java UI toolkits; you can see several discussions on the
+# mailing lists, GitHub issues, and other WM documentation that suggest setting
+# this string if your java app doesn't work correctly. We may as well just lie
+# and say that we're a working one by default.
+#
+# We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
+# java that happens to be on java's whitelist.
+wmname = "LG3D"
 wl_input_rules = None
 
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this

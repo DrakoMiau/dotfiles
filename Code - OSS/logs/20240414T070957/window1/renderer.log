@@ -1,3 +1,0 @@
-2024-04-14 07:09:58.341 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/drako/pureCPP/Anything/linkedList/linkedList.cpp","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-04-14 07:09:58.762 [info] Started local extension host with pid 11925.
-2024-04-14 07:10:01.517 [info] [perf] Render performance baseline is 26ms

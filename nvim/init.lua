@@ -7,13 +7,17 @@ vim.cmd("set relativenumber")
 vim.cmd("set colorcolumn=81")
 vim.cmd("set smartindent")
 vim.cmd("set showtabline=4")
+vim.cmd("set mousemoveevent")
+vim.cmd("set clipboard=unnamedplus")
 vim.g.mapleader = " "
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
 vim.cmd([[let &t_Ce = "\e[4:0m"]])
 
--- Compiler
+-- Termgui color 
+
+vim.opt.termguicolors = true
 
 -- Open compiler
 vim.api.nvim_set_keymap("n", "<leader>r", "<cmd>CompilerOpen<cr>", { noremap = true, silent = true })
@@ -79,4 +83,4 @@ config.setup({
   indent = { enable = true },
 })
 
-vim.cmd("colorscheme nordic")
+vim.cmd("colorscheme gruvbox-material")
